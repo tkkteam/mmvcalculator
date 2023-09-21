@@ -148,7 +148,7 @@ const Home: NextPage = () => {
     
     <div className=" flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
       <Head>
-        <title>Morning Moon Village Calculator 1.0</title>
+        <title>Morning Moon Village Calculator</title>
       </Head>   
       <Navbar />
   <div className="xl:max-w-screen-xl gap-y-4 container flex flex-col self-center flex-1 p-4">
