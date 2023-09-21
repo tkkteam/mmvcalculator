@@ -26,16 +26,6 @@ const Calculator: NextPage = () => {
   const [thbLumi, setThbLumi] = useState<number | null>(null);
   const [thbUsd, setThbUsd] = useState<number | null>(null);
   const [plantKind] = useState<PlantKind>("SEED");
-  const [stemLkusdtCompose] = useState<{
-    lumi: number;
-    kusdt: number;
-  }>();
-  const [stemLkusdtPrice, setStemLkusdtPrice] = useState<number>();
-  const [stemLkkubCompose] = useState<{
-    lumi: number;
-    kkub: number;
-  }>();
-  const [stemLkkubPrice, setStemLkkubPrice] = useState<number>();
   const [seedKind, setSeedKind] = useState<SeedKind>("TOMATO");
   const [rewardMultiplier, setRewardMultiplier] = useState<RewardMultiplier>(4);
   const [plantAmount, setPlantAmount] = useState<number | null>(null);

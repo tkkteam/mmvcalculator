@@ -9,7 +9,7 @@ import axios from "axios";
 import { CSSTransition } from "react-transition-group";
 import { useEffect, useState } from "react";
 
-const Home: NextPage = () => {
+function Home() {
   const [thbKub, setThbKub] = useState<number | null>(null);
   const [usdtkkub, setusdtkkub] = useState<number | null>(null);
   const [usdlumi, setusdlumi] = useState<number | null>(null);
