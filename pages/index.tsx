@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import React from "react";
 import Navbar from "../components/Navbar";
 import Image from "next/image";
 import {IBitkubTicker,ILatestRates,IUsdLumiCurrentPrice,} from "../interfaces/responses";
@@ -7,6 +8,7 @@ import useSWR from "swr";
 import axios from "axios";
 import { CSSTransition } from "react-transition-group";
 import { useEffect, useState } from "react";
+
 
 function Home() {
   const [thbKub, setThbKub] = useState<number | null>(null);
@@ -16,7 +18,8 @@ function Home() {
   const [thbUsdt, setThbUsdt] = useState<number | null>(null);
   const [thbLumi, setThbLumi] = useState<number | null>(null);
   const [thbUsd, setThbUsd] = useState<number | null>(null);
-
+ 
+  
   const initialRates = async () => {
     const now = Math.floor(Date.now() / 1000);
     const responses = await Promise.all([
@@ -142,7 +145,7 @@ function Home() {
 
     wsBitkubConnection();
   }, []);
-
+  
   return (
     
     <div className=" flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
@@ -150,11 +153,12 @@ function Home() {
         <title>Morning Moon Village Calculator</title>
       </Head>   
       <Navbar />
+      
   <div className="xl:max-w-screen-xl gap-y-4 container flex flex-col self-center flex-1 p-4">
   
       <div className="border-dashed border-2 border-indigo-600" >
       <div className="grid  grid-cols-2 gap-4 ">
-        
+      
            <div className="card bg-base-100 flex flex-row overflow-hidden shadow-lg">
             <div className="bg-neutral flex flex-col items-center justify-center w-12 h-12 p-2">
               <Image src="https://commumorning.firebaseapp.com/icons/kub.png" alt="kub" width={80} height={80} />
@@ -367,6 +371,167 @@ function Home() {
       </div> 
        {/*----------------------------------------END-------------------------- */}
        
+        
+       <div className=" pt-6">
+         
+    </div> 
+    <div className= "bg-index flex items-center justify-center">
+        <div className="flex justify-center">
+<div className="dropdown dropdown-hover">
+      <label tabIndex={0} className="btn m-1">ความรู้ทั่วไป</label>
+      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-64">
+      <li>
+    <Link href="/learning/guide">
+    <a target="_blank">
+    <p className="text-red-600">ความรู้ทั่วไปทั้งหมด</p>
+     </a>
+     </Link>
+    
+      </li>
+    <li>
+    <Link href="/learning/guide">
+    <a target="_blank">
+    <p className="text-blue-600">Material Box คืออะไร</p>
+     </a>
+     </Link>
+    
+      </li>
+      
+      <li>
+    <Link href="/learning/6">
+    <a target="_blank">
+    <p className="text-blue-600">การเล่นบิงโก</p>
+     </a>
+     </Link>
+      </li>
+      <li>
+    <Link href="/tutorials/imploss">
+    <a target="_blank">
+    <p className="text-blue-600">Impermanent Loss คือ</p>
+     </a>
+     </Link>
+      </li>
+  </ul>
+  </div>
+    
+       <div className="dropdown dropdown-hover">
+      <label tabIndex={0} className="btn m-1">ตกปลา</label>
+      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+    
+      <li>
+    <Link href="/Bait/fishingrod">
+    <a target="_blank">
+    <p className="text-blue-600">เบ็ดตกปลา</p>
+     </a>
+     </Link>
+      </li>
+      <li>
+    <Link href="/Bait/Bait">
+    <a target="_blank">
+    <p className="text-blue-600">เหยื่อตกปลา</p>
+     </a>
+     </Link>
+      </li>
+  </ul>
+  </div>
+  <div className="dropdown dropdown-hover">
+      <label tabIndex={0} className="btn m-1">ตีบวกไอเทม</label>
+      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-56">
+      <li>
+    <Link href="/weapon/guideweapon">
+    <a target="_blank">
+    <p className="text-red-600">การตีบวกอุปกรณ์ทั้งหมด</p>
+     </a>
+     </Link>
+      </li>
+      <li>
+    <Link href="/weapon/PremiumAxe">
+    <a target="_blank">
+    <p className="text-blue-600">BRONZE HATCHET</p>
+     </a>
+     </Link>
+      </li>
+      <li>
+    <Link href="/weapon/PremiumHammer">
+    <a target="_blank">
+    <p className="text-blue-600">BRONZE MAUL</p>
+     </a>
+     </Link>
+      </li>
+      <li>
+    <Link href="/weapon/PremiumClub">
+    <a target="_blank">
+    <p className="text-blue-600">BRONZE MACE</p>
+     </a>
+     </Link>
+      </li>
+      <li>
+    <Link href="/weapon/PremiumCloak">
+    <a target="_blank">
+    <p className="text-blue-600">ผ้าคลุม SIMPLE CAPE</p>
+     </a>
+     </Link>
+      </li>
+      <li>
+    <Link href="/weapon/PremiumLeatherBoots">
+    <a target="_blank">
+    <p className="text-blue-600">รองเท้า Leather Boots</p>
+     </a>
+     </Link>
+      </li>
+  </ul>
+  </div>
+  <div className="flex justify-center">
+<div className="dropdown dropdown-hover">
+      <label tabIndex={0} className="btn m-1">Monster</label>
+      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+    <li>
+    <Link href="/tutorials/Monster">
+    <a target="_blank">
+    <p className="text-blue-600">มอนสเตอร์</p>
+     </a>
+     </Link>
+      </li>
+  </ul>
+  </div>
+    </div>
+    <div className="dropdown dropdown-hover ">
+      <label tabIndex={0} className="btn m-1">ตลาดซื้อขาย</label>
+      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-56">
+      <li>
+    <Link href="https://app.diamon.finance/#/swap">
+    <a target="_blank">
+    <p className="text-blue-600">Diamon.finance</p>
+     </a>
+     </Link>
+      </li>
+      <li>
+    <Link href="https://pancakeswap.finance/">
+    <a target="_blank">
+    <p className="text-yellow-600">Pancakeswap.finance</p>
+     </a>
+     </Link>
+      </li>
+      <li>
+    <Link href="https://www.megaland.io/">
+    <a target="_blank">
+    <p className="text-red-600">MegaLand NFT</p>
+     </a>
+     </Link>
+      </li>
+      <li>
+    <Link href="https://www.bitkub.com/">
+    <a target="_blank">
+    <p className="text-green-600">BitKub</p>
+     </a>
+     </Link>
+      </li>
+  </ul>
+  </div>
+
+    </div>
+    </div>
+    <div className= "bg-barbg  bg-cover">
           <Image 
             width={1170}
             height={95}
@@ -459,8 +624,10 @@ function Home() {
           />
             </a>
         </Link>  
-        </div></div> 
-</div>
+        </div>
+            </div> 
+                    </div>
+                    </div>
         <Image 
             width={1170}
             height={95}
@@ -511,6 +678,7 @@ function Home() {
             
         </Link>  
         </div> 
+        
         <div className="transition transform hover:-translate-y-1">
         <Link href="/GiftBox/mapfishriver">
            
@@ -582,6 +750,7 @@ function Home() {
         </div>
 
         </div>
+       
         <Image 
             width={1170}
             height={95}

@@ -15,10 +15,11 @@ module.exports = {
     },
     backgroundImage: {
 
-      'index': "url('../public/images/banner-background.png')",
-      'bgimg': "url('../public/images/bgipad.png')",
+      'index': "url('../public/images/bar.png')",
+      'barbg': "url('../public/images/bgbar1.png')",
       
     },
+   
    
   },
   

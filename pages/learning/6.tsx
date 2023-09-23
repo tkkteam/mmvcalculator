@@ -16,7 +16,7 @@ import Nav from "../../components/Nav";
           <h1 className="text-lg font-medium text-center">ข้อมูล การ์ดบิงโก</h1>
       </div>
       <div className="flex-1 text-center">
-      <Link href="https://www.facebook.com/MorningMoonVillageOfficial">
+      <Link href="https://whitepaper-th.morningmoonvillage.com/game-features/game-world/activities/bingo">
             <a target="_blank">
       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
   อ่านข้อมูลเพิ่มเติมได้ที่นี้
