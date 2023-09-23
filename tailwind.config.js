@@ -17,6 +17,8 @@ module.exports = {
 
       'index': "url('../public/images/bar.png')",
       'barbg': "url('../public/images/bgbar1.png')",
+      'Footer': "url('../public/images/Footer.png')",
+      
       
     },
    
