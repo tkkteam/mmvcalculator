@@ -21,6 +21,7 @@ import Nav from "../../components/Nav";
     width={450}
     height={350}
     src="https://i.ibb.co/DKZFP11/bait.png"
+  
     objectFit="cover"
     alt="Picture of the author"
     className="object-cover w-full h-50 hover:opacity-50"
@@ -45,6 +46,7 @@ import Nav from "../../components/Nav";
     width={450}
     height={350}
     src="https://i.ibb.co/pdNyh0h/Fishing-Bait.png"
+    
     objectFit="cover"
     alt="FishingBait"
     className="object-cover w-full h-50 hover:opacity-50"

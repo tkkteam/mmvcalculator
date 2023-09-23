@@ -10,7 +10,14 @@ function CustomApp({ Component, pageProps, }: AppProps) {
         <>
        
             <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS="G-HG67SWCXZS"}`} />
-
+            <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" />
+            <Script
+   id="Adsense-id"
+   data-ad-client="ca-pub-3649237172941694"
+  async strategy="afterInteractive"
+  onError={ (e) => { console.error('Script failed to load', e) }}
+src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+/>
             <Script strategy="lazyOnload">
                 {`
                     window.dataLayer = window.dataLayer || [];

@@ -9,6 +9,7 @@ import useSWR from "swr";
 import axios from "axios";
 import { CSSTransition } from "react-transition-group";
 import { useEffect, useState } from "react";
+import Script from "next/script";
 
 
 
@@ -155,7 +156,14 @@ function Home() {
         <title>Morning Moon Village Calculator</title>
       </Head>   
       <Navbar />
-      
+      <Script
+   id="Adsense-id"
+   data-ad-client="ca-pub-3649237172941694"
+  async strategy="afterInteractive"
+  onError={ (e) => { console.error('Script failed to load', e) }}
+src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+/>
+
   <div className="xl:max-w-screen-xl gap-y-4 container flex flex-col self-center flex-1 p-4">
   
       <div className="border-dashed border-2 border-indigo-600" >
@@ -504,12 +512,20 @@ function Home() {
      </Link>
       </li>
       <li>
+    <Link href="https://mmv.megaland.io/">
+    <a target="_blank">
+    <p className="text-green-600">MMV Market</p>
+     </a>
+     </Link>
+      </li>
+      <li>
     <Link href="https://www.bitkub.com/">
     <a target="_blank">
     <p className="text-green-600">BitKub</p>
      </a>
      </Link>
       </li>
+      
   </ul>
   </div>
 <div className="dropdown dropdown-end">
