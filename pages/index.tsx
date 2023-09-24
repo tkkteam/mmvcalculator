@@ -24,6 +24,7 @@ function Home() {
   const [thbLumi, setThbLumi] = useState<number | null>(null);
   const [thbUsd, setThbUsd] = useState<number | null>(null);
 
+ 
   
   const initialRates = async () => {
     const now = Math.floor(Date.now() / 1000);
@@ -150,6 +151,7 @@ function Home() {
 
     wsBitkubConnection();
   }, []);
+
   
   return (
     
@@ -163,7 +165,7 @@ function Home() {
    id="Adsense-id"
    data-ad-client="ca-pub-3649237172941694"
   async strategy="afterInteractive"
-  onError={ (e) => { console.error('Script failed to load', e) }}
+  onError={ (e) => { console.error("Script failed to load", e) }}
 src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
 />
 
@@ -453,6 +455,13 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     <Link href="/Bait/Bait">
     <a target="_blank">
     <p className="text-blue-600">เหยื่อตกปลา</p>
+     </a>
+     </Link>
+      </li>
+      <li>
+    <Link href="/Bait/Bait">
+    <a target="_blank">
+    <p className="text-blue-600">Fishing Charm</p>
      </a>
      </Link>
       </li>
@@ -795,9 +804,7 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           />
         </Link>  
         </div>
-
         </div>
-       
         <Image 
             width={1170}
             height={95}

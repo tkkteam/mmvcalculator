@@ -13,6 +13,7 @@ module.exports = {
         'spacing': 'margin, padding',
         
     },
+
     backgroundImage: {
 
       'index': "url('../public/images/bar.png')",
