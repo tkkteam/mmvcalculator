@@ -223,23 +223,6 @@ import Link from "next/link";
         />
   </div>
 </div>
-<div className="w-72 h-130 shadow-md rounded m-3">
-    <div className="text-center mt-2">
-    <Link href="https://apps.memopal.com/d/?UULRABC9RW">
-      <a target="_blank">
-        <Image 
-            width={550}
-            height={400}
-            src="/Activity/Activity-program.png"
-            objectFit="cover"
-            alt="avatar"
-            className=" max-w-full h-auto rounded-lg"
-            
-          />
-          </a>
-       </Link>
-      </div>
-      </div>
       <div className="w-72 h-130 shadow-md rounded m-3">
     <div className="text-center mt-2">
     <Link href="/tutorials/Monster">

@@ -10,6 +10,7 @@ import axios from "axios";
 import { CSSTransition } from "react-transition-group";
 import { useEffect, useState } from "react";
 import Script from "next/script";
+import { Carousel } from "antd";
 
 
 
@@ -156,6 +157,7 @@ function Home() {
         <title>Morning Moon Village Calculator</title>
       </Head>   
       <Navbar />
+      
       <Script
    id="Adsense-id"
    data-ad-client="ca-pub-3649237172941694"
@@ -165,7 +167,20 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
 />
 
   <div className="xl:max-w-screen-xl gap-y-4 container flex flex-col self-center flex-1 p-4">
-  
+  <Carousel autoplay>
+    <div>
+    <Image src="https://commumorning.firebaseapp.com/images/nav1.png" alt="BANNER" width={900} height={250} />
+    </div>
+    <div>
+    <Image src="https://commumorning.firebaseapp.com/images/nav2.png" alt="BANNER" width={900} height={250} />
+    </div>
+    <div>
+    <Image src="https://commumorning.firebaseapp.com/images/nav3.png" alt="BANNER" width={900} height={250} />
+    </div>
+    <div>
+    <Image src="https://commumorning.firebaseapp.com/images/nav4.png" alt="BANNER" width={900} height={250} />
+    </div>
+  </Carousel>
       <div className="border-dashed border-2 border-indigo-600" >
       <div className="grid  grid-cols-2 gap-4 ">
       
@@ -396,7 +411,7 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     
       </li>
     <li>
-    <Link href="/learning/guide">
+    <Link href="/learning/3">
     <a target="_blank">
     <p className="text-blue-600">Material Box คืออะไร</p>
      </a>
@@ -570,7 +585,9 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           />
           
         </Link>
-        </div></div> 
+        </div>
+        </div> 
+        
   <div className="grid flex-grow h-32  place-items-center">
   <div className="transition ease-in-out duration-300 transform  inline hover:scale-110">
         <Link href="/calculator">
