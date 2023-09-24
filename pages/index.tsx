@@ -459,7 +459,7 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
      </Link>
       </li>
       <li>
-    <Link href="/Bait/Bait">
+    <Link href="/Bait/FishingCharm">
     <a target="_blank">
     <p className="text-blue-600">Fishing Charm</p>
      </a>

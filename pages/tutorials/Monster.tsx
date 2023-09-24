@@ -940,7 +940,7 @@ const monster: NextPage = () => {
           <p className="text-red-500">Fire : 0</p>
           <p className="text-cyan-500">Cold : 25</p>
           <p className="text-amber-500">Lightning : 65</p>
-          <p className="text-purple-700">Chaos : 25</p>
+          <p className="text-purple-700">Chaos : 20</p>
         </div>
  </div>
 </div>
@@ -1163,9 +1163,9 @@ const monster: NextPage = () => {
   </div>
 </div>
       <div className="text-center mt-2">
-    <h2 className="font-semibold text-red-500">การโจมตีกายภาพ : 49 - 67</h2>
-    <h2 className="font-semibold text-purple-700">การโจมตี Lighting : 27 - 39</h2>
-    <h2 className="font-semibold text-green-800">EXP ที่จะได้รับ : 30</h2>
+    <h2 className="font-semibold text-red-500">การโจมตีกายภาพ : 65 -88</h2>
+    <h2 className="font-semibold text-purple-700">การโจมตี Cold : 31 - 55</h2>
+    <h2 className="font-semibold text-green-800">EXP ที่จะได้รับ : 75</h2>
     <h2 className="font-semibold text-gray-800">พ่ายแพ้อาวุธ :  การขุด (เสียม)</h2>
       </div>
       <div className="text-center mt-2">
@@ -1210,9 +1210,9 @@ const monster: NextPage = () => {
   </div>
 </div>
       <div className="text-center mt-2">
-    <h2 className="font-semibold text-red-500">การโจมตีกายภาพ : 65 - 88</h2>
-    <h2 className="font-semibold text-purple-700">การโจมตี Cold : 31 - 55</h2>
-    <h2 className="font-semibold text-green-800">EXP ที่จะได้รับ : 75</h2>
+    <h2 className="font-semibold text-red-500">การโจมตีกายภาพ : 49 - 67</h2>
+    <h2 className="font-semibold text-purple-700">การโจมตี Lighting :  27 - 39</h2>
+    <h2 className="font-semibold text-green-800">EXP ที่จะได้รับ : 30</h2>
     <h2 className="font-semibold text-gray-800">พ่ายแพ้อาวุธ :  การทุบ (กระบอง)</h2>
       </div>
       <div className="text-center mt-2">
@@ -1220,7 +1220,7 @@ const monster: NextPage = () => {
           <p className="text-gray-800">Physical : 15</p>
           <p className="text-red-500">Fire : 10</p>
           <p className="text-cyan-500">Cold : 60</p>
-          <p className="text-amber-500">Lightning : 50</p>
+          <p className="text-amber-500">Lightning : 20</p>
           <p className="text-purple-700">Chaos : 5</p>
         </div>
  </div>
