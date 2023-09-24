@@ -14,6 +14,7 @@ import { Carousel } from "antd";
 
 
 
+
 function Home() {
   const [thbKub, setThbKub] = useState<number | null>(null);
   const [usdtkkub, setusdtkkub] = useState<number | null>(null);
@@ -22,7 +23,7 @@ function Home() {
   const [thbUsdt, setThbUsdt] = useState<number | null>(null);
   const [thbLumi, setThbLumi] = useState<number | null>(null);
   const [thbUsd, setThbUsd] = useState<number | null>(null);
- 
+
   
   const initialRates = async () => {
     const now = Math.floor(Date.now() / 1000);
@@ -181,6 +182,8 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     <Image src="https://commumorning.firebaseapp.com/images/nav4.png" alt="BANNER" width={900} height={250} />
     </div>
   </Carousel>
+     
+  
       <div className="border-dashed border-2 border-indigo-600" >
       <div className="grid  grid-cols-2 gap-4 ">
       
@@ -560,7 +563,8 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
   
 
   </div>
-    <div className= "bg-barbg  bg-cover">
+
+  <div className= "bg-base-100">
           <Image 
             width={1170}
             height={95}
@@ -569,9 +573,23 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
             alt="avatar"
             className=" max-w-full h-auto "
           />
-  <div className="flex flex-col w-full lg:flex-row">
-  <div className="grid flex-grow h-32 place-items-center"> 
-  <div className="transition ease-in-out duration-300 transform  inline hover:scale-110">
+              
+  <div className="flex-1 flex flex-col sm:flex-row">
+    <main className="flex-1">
+    <Image 
+            width={950}
+            height={950}
+            src="https://commumorning.firebaseapp.com/Notice/1.jpg"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto"
+          />
+    </main>
+   
+    <aside className="flex-1 pl-2 sm:w-32 grid flex-grow  place-items-center">
+    <div className="grid grid-cols-1 gap-1 ">
+    <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:translate-y-1 transition-all rounded">
         <Link href="/price"> 
         
         <Image 
@@ -587,9 +605,9 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         </Link>
         </div>
         </div> 
-        
-  <div className="grid flex-grow h-32  place-items-center">
-  <div className="transition ease-in-out duration-300 transform  inline hover:scale-110">
+       
+        <div className="grid flex-grow  place-items-center">
+  <div className="hover:translate-y-1 transition-all rounded">
         <Link href="/calculator">
         <Image 
              width={340}
@@ -603,10 +621,8 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         </Link>
         </div>
   </div>
-</div>
-<div className="flex flex-col w-full lg:flex-row">
-  <div className="grid flex-grow h-32 place-items-center"> 
-  <div className="transition ease-in-out duration-300 transform  inline hover:scale-110">
+  <div className="grid flex-grow place-items-center"> 
+  <div className="hover:translate-y-1 transition-all rounded">
   <Link href="/Shop/sale">
             <Image 
             width={340}
@@ -620,8 +636,8 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         </Link>  
         </div>
         </div> 
-  <div className="grid flex-grow h-32  place-items-center">
-  <div className="transition ease-in-out duration-300 transform  inline hover:scale-110">
+        <div className="grid flex-grow   place-items-center">
+  <div className="hover:translate-y-1 transition-all rounded">
   <Link href="https://www.cmhexa.com/lookdo">
             <a target="_blank">
             <Image 
@@ -637,10 +653,8 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         </Link>  
         </div>
   </div>
-</div>
-<div className="flex flex-col w-full lg:flex-row">
-  <div className="grid flex-grow h-32 place-items-center"> 
-  <div className="transition ease-in-out duration-300 transform  inline hover:scale-110">
+  <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:translate-y-1 transition-all rounded">
   <Link href="https://www.mmv-toolkit.com/">
             <a target="_blank">
             <Image 
@@ -656,8 +670,11 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         </Link>  
         </div>
             </div> 
-                    </div>
-                    </div>
+            </div>
+    </aside>
+    </div>
+  </div>
+  
         <Image 
             width={1170}
             height={95}
