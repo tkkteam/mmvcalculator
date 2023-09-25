@@ -15,6 +15,7 @@ import { Carousel } from "antd";
 
 
 
+
 function Home() {
   const [thbKub, setThbKub] = useState<number | null>(null);
   const [usdtkkub, setusdtkkub] = useState<number | null>(null);
@@ -402,10 +403,19 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
        {/*----------------------------------------END-------------------------- */}
   
        
-    <div className= "bg-index flex items-center justify-center">
+    <div className= "flex items-center justify-center bg-origin-border p-2 bg-green-700 border-4 border-red-400 border-dashed hover:bg-fixed">
 <div className="dropdown dropdown-hover">
-      <label tabIndex={0} className="btn m-1">ความรู้ทั่วไป</label>
-      
+<div tabIndex={0} className="w-full rounded lg:w-2/3 md:w-2/2 ">
+        <Image 
+            width={350}
+            height={100}
+            src="https://commumorning.firebaseapp.com/Btn/btn.png"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+        </div>
       <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-64">
       <li>
     <Link href="/learning/guide">
@@ -440,8 +450,19 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       </li>
   </ul>
   </div>
-       <div className="dropdown dropdown-hover">
-      <label tabIndex={0} className="btn m-1">ตกปลา</label>
+  
+       <div className="dropdown dropdown-hover ">
+       <div tabIndex={0} className="w-full rounded lg:w-2/3 md:w-2/2 ">
+        <Image 
+            width={350}
+            height={100}
+            src="https://commumorning.firebaseapp.com/Btn/btnfish.png"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+          </div>
       <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
     
       <li>
@@ -468,7 +489,17 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
   </ul>
   </div>
   <div className="dropdown dropdown-hover">
-      <label tabIndex={0} className="btn m-1">ตีบวกไอเทม</label>
+  <div tabIndex={0} className="w-full rounded lg:w-2/3 md:w-2/2 ">
+        <Image 
+            width={350}
+            height={100}
+            src="https://commumorning.firebaseapp.com/Btn/btnweapon.png"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+          </div>
       <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-56">
       <li>
     <Link href="/weapon/guideweapon">
@@ -515,7 +546,17 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
   </ul>
   </div>
   <div className="dropdown dropdown-hover">
-      <label tabIndex={0} className="btn m-1 ">ตลาดซื้อขาย</label>
+  <div tabIndex={0} className="w-full rounded lg:w-2/3 md:w-2/2 ">
+        <Image 
+            width={350}
+            height={100}
+            src="https://commumorning.firebaseapp.com/Btn/btnshop.png"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+          </div>
       <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
       <li>
     <Link href="https://app.diamon.finance/#/swap">
@@ -555,8 +596,18 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       
   </ul>
   </div>
-<div className="dropdown dropdown-end">
-      <label tabIndex={0} className="btn m-1">Monster</label>
+<div className="dropdown dropdown-hover dropdown-end">
+<div tabIndex={0} className="w-full rounded lg:w-2/3 md:w-2/2 ">
+        <Image 
+            width={350}
+            height={100}
+            src="https://commumorning.firebaseapp.com/Btn/btnmonster.png"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+          </div>
       <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
     <li>
     <Link href="/tutorials/Monster">
@@ -567,13 +618,9 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       </li>
   </ul>
     </div>
-    
-    
-  
+    </div>
 
-  </div>
-
-  <div className= "bg-base-100">
+  <div className= "bg-base-100 ">
           <Image 
             width={1170}
             height={95}
@@ -692,7 +739,7 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
             alt="avatar"
             className=" max-w-full h-auto "
           />
-        <div className="grid grid-cols-4 gap-6 mx-auto">
+         <div className="grid grid-cols-4 gap-6 mx-auto">
         <div className="transition transform hover:-translate-y-1">
         <Link href="/learning/guide"> 
         <Image 
