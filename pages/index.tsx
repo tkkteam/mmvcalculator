@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import YoutubeEmbed from "../components/YoutubeEmbed";
 import Image from "next/image";
 import {IBitkubTicker,ILatestRates,IUsdLumiCurrentPrice,} from "../interfaces/responses";
 import useSWR from "swr";
@@ -11,6 +12,7 @@ import { CSSTransition } from "react-transition-group";
 import { useEffect, useState } from "react";
 import Script from "next/script";
 import { Carousel } from "antd";
+
 
 
 
@@ -183,6 +185,9 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     </div>
     <div>
     <Image src="https://commumorning.firebaseapp.com/images/nav4.png" alt="BANNER" width={900} height={350} />
+    </div>
+    <div>
+    <Image src="https://commumorning.firebaseapp.com/images/nav5.png" alt="BANNER" width={900} height={350} />
     </div>
   </Carousel>
      
@@ -639,13 +644,23 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
               
   <div className="flex-1 flex flex-col sm:flex-row">
     <main className="flex-1 border-t-4 border-indigo-500">
-    <Image 
+   {/*} <Image 
             width={950}
             height={950}
             src="https://commumorning.firebaseapp.com/Notice/1.jpg"
             objectFit="contain"
             alt="avatar"
             className="max-w-full h-auto"
+          />
+                    */}
+                    <YoutubeEmbed embedId="cLnLt0GzQZo" />
+   <Image 
+            width={640}
+            height={360}
+            src="https://commumorning.firebaseapp.com/images/commu1.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto"
           />
     </main>
    
