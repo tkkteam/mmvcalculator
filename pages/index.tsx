@@ -173,16 +173,16 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
   <div className="xl:max-w-screen-xl gap-y-4 container flex flex-col self-center flex-1 p-4">
   <Carousel autoplay>
     <div>
-    <Image src="https://commumorning.firebaseapp.com/images/nav1.png" alt="BANNER" width={900} height={250} />
+    <Image src="https://commumorning.firebaseapp.com/images/nav1.png" alt="BANNER" width={900} height={350} />
     </div>
     <div>
-    <Image src="https://commumorning.firebaseapp.com/images/nav2.png" alt="BANNER" width={900} height={250} />
+    <Image src="https://commumorning.firebaseapp.com/images/nav2.png" alt="BANNER" width={900} height={350} />
     </div>
     <div>
-    <Image src="https://commumorning.firebaseapp.com/images/nav3.png" alt="BANNER" width={900} height={250} />
+    <Image src="https://commumorning.firebaseapp.com/images/nav3.png" alt="BANNER" width={900} height={350} />
     </div>
     <div>
-    <Image src="https://commumorning.firebaseapp.com/images/nav4.png" alt="BANNER" width={900} height={250} />
+    <Image src="https://commumorning.firebaseapp.com/images/nav4.png" alt="BANNER" width={900} height={350} />
     </div>
   </Carousel>
      
