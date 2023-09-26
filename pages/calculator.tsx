@@ -292,7 +292,7 @@ const Calculator: NextPage = () => {
  
   return (
     
-    <div className="bg-base-200 flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
+    <div className="flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
       <Head>
         <title>MorningmoonVillage Calculator</title>
       </Head>   
@@ -1020,6 +1020,7 @@ const Calculator: NextPage = () => {
           </div>
         </div>
       </div>
+      
         </div>
         
   );

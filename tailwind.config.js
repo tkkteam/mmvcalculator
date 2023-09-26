@@ -17,6 +17,7 @@ module.exports = {
     backgroundImage: {
       
       'Footer': "url('../public/images/Footer.png')",
+     
       
       
     },

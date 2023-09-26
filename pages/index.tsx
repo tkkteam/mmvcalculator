@@ -401,22 +401,30 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       </div> 
       </div> 
        {/*----------------------------------------END-------------------------- */}
-  
        
-    <div className= "flex items-center justify-center bg-origin-border p-2 bg-green-700 border-4 border-red-400 border-dashed hover:bg-fixed">
-<div className="dropdown dropdown-hover">
-<div tabIndex={0} className="w-full rounded lg:w-2/3 md:w-2/2 ">
-        <Image 
-            width={350}
-            height={100}
-            src="https://commumorning.firebaseapp.com/Btn/btn.png"
+          <Image 
+            width={1170}
+            height={95}
+            src="https://commumorning.firebaseapp.com/title/titlebarmmv.png"
             objectFit="cover"
             alt="avatar"
             className=" max-w-full h-auto "
+          />
+       
+    <div className= "flex items-center justify-center border-dashed border-2 border-indigo-600 hover:bg-fixed">
+<div className="dropdown dropdown-hover">
+<div tabIndex={0} className="w-full rounded lg:w-2/3 md:w-2/2 ">
+        <Image 
+            width={250}
+            height={250}
+            src="https://commumorning.firebaseapp.com/Btn/whitepaper.png"
+            objectFit="cover"
+            alt="avatar"
+            className="max-w-full h-auto "
             
           />
         </div>
-      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-64">
+      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 border-dotted border-2 border-blue-600 rounded-box w-64">
       <li>
     <Link href="/learning/guide">
     <a target="_blank">
@@ -454,16 +462,16 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
        <div className="dropdown dropdown-hover ">
        <div tabIndex={0} className="w-full rounded lg:w-2/3 md:w-2/2 ">
         <Image 
-            width={350}
-            height={100}
-            src="https://commumorning.firebaseapp.com/Btn/btnfish.png"
+            width={250}
+            height={250}
+            src="https://commumorning.firebaseapp.com/Btn/bait.png"
             objectFit="cover"
             alt="avatar"
             className=" max-w-full h-auto "
             
           />
           </div>
-      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 border-dotted border-2 border-blue-600 rounded-box w-52">
     
       <li>
     <Link href="/Bait/fishingrod">
@@ -491,16 +499,16 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
   <div className="dropdown dropdown-hover">
   <div tabIndex={0} className="w-full rounded lg:w-2/3 md:w-2/2 ">
         <Image 
-            width={350}
-            height={100}
-            src="https://commumorning.firebaseapp.com/Btn/btnweapon.png"
+            width={250}
+            height={250}
+            src="https://commumorning.firebaseapp.com/Btn/weapon.png"
             objectFit="cover"
             alt="avatar"
             className=" max-w-full h-auto "
             
           />
           </div>
-      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-56">
+      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 border-dotted border-2 border-blue-600 rounded-box w-56">
       <li>
     <Link href="/weapon/guideweapon">
     <a target="_blank">
@@ -548,16 +556,23 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
   <div className="dropdown dropdown-hover">
   <div tabIndex={0} className="w-full rounded lg:w-2/3 md:w-2/2 ">
         <Image 
-            width={350}
-            height={100}
-            src="https://commumorning.firebaseapp.com/Btn/btnshop.png"
+            width={250}
+            height={250}
+            src="https://commumorning.firebaseapp.com/Btn/shop.png"
             objectFit="cover"
             alt="avatar"
             className=" max-w-full h-auto "
             
           />
           </div>
-      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 border-dotted border-2 border-blue-600 rounded-box w-64">
+      <li>
+    <Link href="/Shop/sale">
+    <a target="_blank">
+    <p className="text-red-600">ร้านขายของในกลุ่ม MMV</p>
+     </a>
+     </Link>
+      </li>
       <li>
     <Link href="https://app.diamon.finance/#/swap">
     <a target="_blank">
@@ -599,16 +614,16 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
 <div className="dropdown dropdown-hover dropdown-end">
 <div tabIndex={0} className="w-full rounded lg:w-2/3 md:w-2/2 ">
         <Image 
-            width={350}
-            height={100}
-            src="https://commumorning.firebaseapp.com/Btn/btnmonster.png"
+            width={250}
+            height={250}
+            src="https://commumorning.firebaseapp.com/Btn/monster.png"
             objectFit="cover"
             alt="avatar"
             className=" max-w-full h-auto "
             
           />
           </div>
-      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100  border-dotted border-2 border-blue-600 rounded-box w-52">
     <li>
     <Link href="/tutorials/Monster">
     <a target="_blank">
@@ -620,39 +635,31 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     </div>
     </div>
 
-  <div className= "bg-base-100 ">
-          <Image 
-            width={1170}
-            height={95}
-            src="https://commumorning.firebaseapp.com/title/B1.png"
-            objectFit="cover"
-            alt="avatar"
-            className=" max-w-full h-auto "
-          />
+  
               
   <div className="flex-1 flex flex-col sm:flex-row">
-    <main className="flex-1">
+    <main className="flex-1 border-t-4 border-indigo-500">
     <Image 
             width={950}
             height={950}
             src="https://commumorning.firebaseapp.com/Notice/1.jpg"
-            objectFit="cover"
+            objectFit="contain"
             alt="avatar"
-            className=" max-w-full h-auto"
+            className="max-w-full h-auto"
           />
     </main>
    
-    <aside className="flex-1 pl-2 sm:w-32 grid flex-grow  place-items-center">
+    <aside className="flex-1 pl-2 sm:w-32 grid flex-grow border-t-4 border-indigo-500 place-items-center">
     <div className="grid grid-cols-1 gap-1 ">
     <div className="grid flex-grow  place-items-center"> 
   <div className="hover:translate-y-1 transition-all rounded">
         <Link href="/price"> 
         
         <Image 
-            width={340}
-            height={120}
-            src="/images/BT1.png"
-            objectFit="cover"
+            width={350}
+            height={150}
+            src="https://commumorning.firebaseapp.com/Btn/coinprice.png"
+            objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
             
@@ -666,10 +673,10 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
   <div className="hover:translate-y-1 transition-all rounded">
         <Link href="/calculator">
         <Image 
-             width={340}
-             height={120}
-             src="/images/BT2.png"
-            objectFit="cover"
+             width={350}
+             height={150}
+             src="https://commumorning.firebaseapp.com/Btn/calculator.png"
+            objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
             
@@ -677,30 +684,15 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         </Link>
         </div>
   </div>
-  <div className="grid flex-grow place-items-center"> 
-  <div className="hover:translate-y-1 transition-all rounded">
-  <Link href="/Shop/sale">
-            <Image 
-            width={340}
-            height={120}
-            src="/images/BT3.png"
-            objectFit="cover"
-            alt="avatar"
-            className=" max-w-full h-auto "
-            
-          />
-        </Link>  
-        </div>
-        </div> 
-        <div className="grid flex-grow   place-items-center">
+  <div className="grid flex-grow   place-items-center">
   <div className="hover:translate-y-1 transition-all rounded">
   <Link href="https://www.cmhexa.com/lookdo">
             <a target="_blank">
             <Image 
-             width={340}
-             height={120}
-             src="/images/BT4.png"
-            objectFit="cover"
+             width={350}
+             height={150}
+             src="https://commumorning.firebaseapp.com/Btn/tokencheck.png"
+            objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
             
@@ -714,10 +706,10 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
   <Link href="https://www.mmv-toolkit.com/">
             <a target="_blank">
             <Image 
-             width={340}
-             height={120}
-             src="/images/BT6.png"
-            objectFit="cover"
+             width={350}
+             height={150}
+             src="https://commumorning.firebaseapp.com/Btn/mmvtoolkit.png"
+            objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
             
@@ -729,7 +721,7 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
             </div>
     </aside>
     </div>
-  </div>
+
   
         <Image 
             width={1170}
