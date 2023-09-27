@@ -240,8 +240,108 @@ import Link from "next/link";
        </Link>
       </div>
       </div>
-
-    
+      <div className="w-72 h-130 shadow-md rounded m-3">
+    <div className="text-center mt-2">
+    <Link href="/Bait/guide">
+      <a target="_blank">
+        <Image 
+            width={550}
+            height={400}
+            src="https://commumorning.firebaseapp.com/mmvimg/01.png"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto rounded-lg"
+            
+          />
+          </a>
+       </Link>
+      </div>
+      </div>
+      <div className="w-72 h-130 shadow-md rounded m-3">
+    <div className="text-center mt-2">
+    <Link href="/GiftBox/box">
+      <a target="_blank">
+        <Image 
+            width={550}
+            height={400}
+            src="https://commumorning.firebaseapp.com/mmvimg/06.png"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto rounded-lg"
+            
+          />
+          </a>
+       </Link>
+      </div>
+      </div>
+      <div className="w-72 h-130 shadow-md rounded m-3">
+    <div className="text-center mt-2">
+    <Link href="/GiftBox/mapfishriver">
+      <a target="_blank">
+        <Image 
+            width={550}
+            height={400}
+            src="https://commumorning.firebaseapp.com/mmvimg/N2.png"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto rounded-lg"
+            
+          />
+          </a>
+       </Link>
+      </div>
+      </div>
+      <div className="w-72 h-130 shadow-md rounded m-3">
+    <div className="text-center mt-2">
+    <Link href="/weapon/guideweapon">
+      <a target="_blank">
+        <Image 
+            width={550}
+            height={400}
+            src="https://commumorning.firebaseapp.com/mmvimg/02.png"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto rounded-lg"
+            
+          />
+          </a>
+       </Link>
+      </div>
+      </div>
+      <div className="w-72 h-130 shadow-md rounded m-3">
+    <div className="text-center mt-2">
+    <Link href="https://bit.ly/3Lg9mpP">
+      <a target="_blank">
+        <Image 
+            width={550}
+            height={400}
+            src="https://commumorning.firebaseapp.com/mmvimg/03.png"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto rounded-lg"
+            
+          />
+          </a>
+       </Link>
+      </div>
+      </div>
+      <div className="w-72 h-130 shadow-md rounded m-3">
+    <div className="text-center mt-2">
+    <Link href="/tutorials/egg">
+      <a target="_blank">
+        <Image 
+            width={550}
+            height={400}
+            src="https://commumorning.firebaseapp.com/mmvimg/05.png"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto rounded-lg"
+            
+          />
+          </a>
+       </Link>
+      </div>
+      </div>
  
  
 

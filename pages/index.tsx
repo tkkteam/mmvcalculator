@@ -432,21 +432,35 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 border-dotted border-2 border-blue-600 rounded-box w-64">
       <li>
     <Link href="/learning/guide">
-    <a target="_blank">
     <p className="text-red-600">ความรู้ทั่วไปทั้งหมด</p>
-     </a>
-     </Link>
     
-      </li>
+     </Link>
+     </li>
+
     <li>
-    <Link href="/learning/3">
+    <Link href="/learning/Jewels">
     <a target="_blank">
-    <p className="text-blue-600">Material Box คืออะไร</p>
+    <p className="text-blue-600">Jewels ชนิดต่างๆ</p>
      </a>
      </Link>
-    
+      </li>
+
+      <li>
+    <Link href="/GiftBox/box">
+    <a target="_blank">
+    <p className="text-blue-600">กล่องสมบัติ</p>
+     </a>
+     </Link>
       </li>
       
+      <li>
+    <Link href="/tutorials/egg">
+    <a target="_blank">
+    <p className="text-blue-600">ไข่ไก่ชนิดต่างๆ</p>
+     </a>
+     </Link>
+      </li>
+  
       <li>
     <Link href="/learning/6">
     <a target="_blank">
@@ -454,6 +468,7 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
      </a>
      </Link>
       </li>
+
       <li>
     <Link href="/tutorials/imploss">
     <a target="_blank">
@@ -461,6 +476,8 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
      </a>
      </Link>
       </li>
+
+
   </ul>
   </div>
   
@@ -477,18 +494,24 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           />
           </div>
       <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 border-dotted border-2 border-blue-600 rounded-box w-52">
-    
+      <li>
+    <Link href="/GiftBox/mapfishriver">
+    <a target="_blank">
+    <p className="text-blue-600">ของดรอปตกปลา</p>
+     </a>
+     </Link>
+      </li>
       <li>
     <Link href="/Bait/fishingrod">
     <a target="_blank">
-    <p className="text-blue-600">เบ็ดตกปลา</p>
+    <p className="text-blue-600">เบ็ดแต่ละชนิด</p>
      </a>
      </Link>
       </li>
       <li>
     <Link href="/Bait/Bait">
     <a target="_blank">
-    <p className="text-blue-600">เหยื่อตกปลา</p>
+    <p className="text-blue-600">เหยื่อตกปลาแต่ละชนิด</p>
      </a>
      </Link>
       </li>
@@ -642,17 +665,17 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
 
   
               
-  <div className="flex-1 flex flex-col sm:flex-row">
+  <div className="flex-1 flex flex-col sm:flex-row ">
     <main className="flex-1 border-t-4 border-indigo-500">
-   {/*} <Image 
-            width={950}
-            height={950}
-            src="https://commumorning.firebaseapp.com/Notice/1.jpg"
+    <Image 
+            width={600}
+            height={150}
+            src="https://commumorning.firebaseapp.com/title/new.png"
             objectFit="contain"
             alt="avatar"
             className="max-w-full h-auto"
           />
-                    */}
+                    
                     <YoutubeEmbed embedId="cLnLt0GzQZo" />
    <Image 
             width={640}
@@ -664,7 +687,16 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           />
     </main>
    
-    <aside className="flex-1 pl-2 sm:w-32 grid flex-grow border-t-4 border-indigo-500 place-items-center">
+    <aside className="flex-1 flex-col  border-t-4 border-indigo-500">
+    <Image 
+             width={600}
+             height={150}
+             src="https://commumorning.firebaseapp.com/title/menummv.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
     <div className="grid grid-cols-1 gap-1 ">
     <div className="grid flex-grow  place-items-center"> 
   <div className="hover:translate-y-1 transition-all rounded">
@@ -699,7 +731,7 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         </Link>
         </div>
   </div>
-  <div className="grid flex-grow   place-items-center">
+  <div className="grid flex-grow  place-items-center">
   <div className="hover:translate-y-1 transition-all rounded">
   <Link href="https://www.cmhexa.com/lookdo">
             <a target="_blank">
@@ -736,231 +768,149 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
             </div>
     </aside>
     </div>
-
-  
-        <Image 
+    <Image 
             width={1170}
             height={95}
-            src="https://commumorning.firebaseapp.com/title/B3.png"
+            src="https://commumorning.firebaseapp.com/title/titlebarcommu.png"
             objectFit="cover"
             alt="avatar"
             className=" max-w-full h-auto "
           />
-         <div className="grid grid-cols-4 gap-6 mx-auto">
-        <div className="transition transform hover:-translate-y-1">
-        <Link href="/learning/guide"> 
-        <Image 
-             width={250}
-             height={250}
-            src="https://commumorning.firebaseapp.com/mmvimg/guide.png"
-            objectFit="cover"
-            alt="avatar"
-            className=" max-w-full h-auto"
-            
-          />
-        </Link>
-        </div>
-        <div className="transition transform hover:-translate-y-1">
-        <Link href="/GiftBox/box">
-        <Image 
-             width={250}
-             height={250}
-            src="https://commumorning.firebaseapp.com/mmvimg/06.png"
-            objectFit="cover"
-            alt="avatar"
-            className=" max-w-full h-auto"
-            
-          />
-        </Link>
-        </div>
-        <div className=" transition transform hover:-translate-y-1">
-        <Link href="/Bait/guide">
-            
-            <Image 
-            width={250}
-            height={250}
-            src="https://commumorning.firebaseapp.com/mmvimg/01.png"
-            objectFit="cover"
-            alt="avatar"
-            className="max-w-full h-auto"
-            
-          />
-            
-        </Link>  
-        </div> 
-        
-        <div className="transition transform hover:-translate-y-1">
-        <Link href="/GiftBox/mapfishriver">
-           
-            <Image 
-            width={250}
-            height={250}
-            src="https://commumorning.firebaseapp.com/mmvimg/N2.png"
-            objectFit="cover"
+    <div className="flex-1 flex flex-col sm:flex-row">
+    <main className="flex-1 ">
+    <Image 
+             width={600}
+             height={150}
+             src="https://commumorning.firebaseapp.com/title/titlebarcommunity.png"
+            objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
             
           />
-           
-        </Link>  
-        </div> 
-        <div className="transition transform hover:-translate-y-1">
-        <Link href="/weapon/guideweapon">
-           
-            <Image 
-            width={250}
-            height={250}
-            src="https://commumorning.firebaseapp.com/mmvimg/02.png"
-            objectFit="cover"
-            alt="avatar"
-            className=" max-w-full h-auto"
-            
-          />
-           
-        </Link>  
-        </div> 
-        <div className="transition transform hover:-translate-y-1">
-        <Link href="https://bit.ly/3Lg9mpP">
-        <a target="_blank">
-            <Image 
-            width={250}
-            height={250}
-            src="https://commumorning.firebaseapp.com/mmvimg/03.png"
-            objectFit="cover"
-            alt="avatar"
-            className=" max-w-full h-auto"
-            
-          />
-         </a>
-        </Link>  
-        </div>
-        <div className="transition transform hover:-translate-y-1">
-        <Link href="/tutorials/Monster">
-            <Image 
-            width={250}
-            height={250}
-            src="https://commumorning.firebaseapp.com/mmvimg/04.png"
-            objectFit="cover"
-            alt="avatar"
-            className=" max-w-full h-auto "
-          />
-        </Link>  
-        </div>
-        <div className="transition transform hover:-translate-y-1">
-        <Link href="/tutorials/egg">
-            <Image 
-            width={250}
-            height={250}
-            src="https://commumorning.firebaseapp.com/mmvimg/05.png"
-            objectFit="cover"
-            alt="avatar"
-            className=" max-w-full h-auto "
-          />
-        </Link>  
-        </div>
-        </div>
-        <Image 
-            width={1170}
-            height={95}
-            src="https://commumorning.firebaseapp.com/title/B4.png"
-            objectFit="cover"
-            alt="avatar"
-            className=" max-w-full h-auto "
-          />
-          <div className="grid grid-cols-3 gap-4 mx-auto">
-        <div className="transition ease-in-out duration-300 transform  inline hover:scale-110">
-        <Link href="https://morningmoonvillage.com/leaderboard"> 
+    <div className="grid grid-cols-2 gap-4 ">
+    <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:translate-y-1 transition-all rounded">
+        <Link href="https://pondkubs-project-0j2p.glideapp.io/"> 
         <a target="_blank">
         <Image 
-            width={350}
-            height={250}
-            src="/images/ranking.png"
-            objectFit="cover"
+            width={150}
+            height={150}
+            src="https://commumorning.firebaseapp.com/commu/pondkub.png"
+            objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
-            
+           
           />
-          </a>
+           </a>
         </Link>
         </div>
-        <div className="transition ease-in-out duration-300 transform  inline hover:scale-110">
-        <Link href="https://morningmoonvillage.com/crop_leaderboard">
-        <a target="_blank">
-        <Image 
-            width={350}
-            height={250}
-            src="/images/ranking1.png"
-            objectFit="cover"
-            alt="avatar"
-            className=" max-w-full h-auto "
-            
-          />
-          </a>
-        </Link>
-        </div>
-        <div className="transition ease-in-out duration-300 transform  inline hover:scale-110">
-        <Link href="https://pondkubs-project-0j2p.glideapp.io/">
-            <a target="_blank">
-            <Image 
-            width={350}
-            height={250}
-            src="/images/pondkub.png"
-            objectFit="cover"
-            alt="avatar"
-            className=" max-w-full h-auto "
-            
-          />
-            </a>
-        </Link>  
         </div> 
-        </div>
-        <div className="grid grid-cols-3 gap-4 mx-auto">
-        <div className="transition ease-in-out duration-300 transform  inline hover:scale-110">
-        <Link href="https://www.cmhexa.com/cmdungeon">
-            <a target="_blank">
-            <Image 
-            width={350}
-            height={250}
-            src="/images/cm.png"
-            objectFit="cover"
-            alt="avatar"
-            className=" max-w-full h-auto "
-            
-          />
-            </a>
-        </Link>  
-        </div> 
-        <div className="transition ease-in-out duration-300 transform  inline hover:scale-110">
+       
+        <div className="grid flex-grow  place-items-center">
+  <div className="hover:translate-y-1 transition-all rounded">
         <Link href="https://www.facebook.com/888Token">
-            <a target="_blank">
-            <Image 
-           width={350}
-           height={250}
-           src="/images/888.png"
-            objectFit="cover"
+        <a target="_blank">
+        <Image 
+             width={150}
+             height={150}
+             src="https://commumorning.firebaseapp.com/commu/888.png"
+            objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
             
           />
-            </a>
-        </Link>  
-        </div> 
-        <div className="transition ease-in-out duration-300 transform  inline hover:scale-110">
-        <Link href="https://www.facebook.com/groups/725376175224847">
-            <a target="_blank">
-            <Image 
+          </a>
+        </Link>
+        </div>
+  </div>
+  <div className="grid flex-grow  place-items-center">
+  <div className="hover:translate-y-1 transition-all rounded">
+        <Link href="https://www.cmhexa.com/cmdungeon">
+        <a target="_blank">
+        <Image 
+             width={150}
+             height={150}
+             src="https://commumorning.firebaseapp.com/commu/cmm.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+          </a>
+        </Link>
+        </div>
+  </div>
+  <div className="grid flex-grow  place-items-center">
+  <div className="hover:translate-y-1 transition-all rounded">
+        <Link href="https://www.facebook.com/groups/kldnft">
+        <a target="_blank">
+        <Image 
+             width={150}
+             height={150}
+             src="https://commumorning.firebaseapp.com/commu/kld.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+          </a>
+        </Link>
+        </div>
+  </div>
+
+  </div>
+    </main>
+   
+    <aside className="flex-1 pl-2 sm:w-32 grid flex-grow  place-items-center">
+    <Image 
+             width={600}
+             height={150}
+             src="https://commumorning.firebaseapp.com/title/topranking.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+    <div className="grid grid-cols-1 gap-1 ">
+    <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:translate-y-1 transition-all rounded">
+        <Link href="https://morningmoonvillage.com/crop_leaderboard"> 
+        <a target="_blank">
+        <Image 
             width={350}
             height={250}
-            src="/images/kld.png"
-            objectFit="cover"
+            src="https://commumorning.firebaseapp.com/mmvimg/rankingfood.png"
+            objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
             
           />
-            </a>
-        </Link>  
-        </div> 
+          </a>
+        </Link>
         </div>
+        </div> 
+       
+        <div className="grid flex-grow  place-items-center">
+  <div className="hover:translate-y-1 transition-all rounded">
+        <Link href="https://morningmoonvillage.com/leaderboard">
+        <a target="_blank">
+        <Image 
+             width={350}
+             height={150}
+             src="https://commumorning.firebaseapp.com/mmvimg/rankingfish.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+          </a>
+        </Link>
+        </div>
+  </div>
+  </div>
+    </aside>
+    </div>
+    
         <Image 
             width={1170}
             height={95}
