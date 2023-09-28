@@ -7,7 +7,7 @@ function giftboxmmv() {
   return (
     <div className="bg-base-200 flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
       <Head>
-      <title>กล่องของขวัญ - MorningMoon Village</title>
+      <title>กล่องของขวัญ - ความรู้ทั่วไปเกี่ยวกับเกม</title>
       </Head>
       <Nav/>
       <div className="sm:max-w-screen-xl gap-y-4 container flex flex-col self-center flex-1 p-4">

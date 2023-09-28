@@ -8,7 +8,7 @@ import Nav from "../../components/Nav";
   return (
     <div className="bg-base-200 flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
     <Head>
-        <title>ความรู้ทั่วไปเกี่ยวกับเกม</title>
+        <title>BinGO - ความรู้ทั่วไปเกี่ยวกับเกม</title>
       </Head> 
       <Nav/>
       
