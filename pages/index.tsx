@@ -12,6 +12,8 @@ import { CSSTransition } from "react-transition-group";
 import { useEffect, useState } from "react";
 import Script from "next/script";
 import { Carousel } from "antd";
+import { Button, Modal,} from "flowbite-react";
+
 
 
 
@@ -27,8 +29,11 @@ function Home() {
   const [thbLumi, setThbLumi] = useState<number | null>(null);
   const [thbUsd, setThbUsd] = useState<number | null>(null);
 
- 
-  
+  const [openModal, setOpenModal] = useState<string | undefined>();
+  const [modalSize, setModalSize] = useState<string>("sm");
+  const props = { modalSize, openModal, setModalSize, setOpenModal };
+
+
   const initialRates = async () => {
     const now = Math.floor(Date.now() / 1000);
     const responses = await Promise.all([
@@ -155,7 +160,8 @@ function Home() {
     wsBitkubConnection();
   }, []);
 
-  
+
+
   return (
     
     <div className="flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
@@ -163,7 +169,6 @@ function Home() {
         <title>Morning Moon Village Calculator</title>
       </Head>   
       <Navbar />
-      
       <Script
    id="Adsense-id"
    data-ad-client="ca-pub-3649237172941694"
@@ -190,8 +195,21 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     <Image src="https://commumorning.firebaseapp.com/images/nav5.png" alt="BANNER" width={900} height={350} />
     </div>
   </Carousel>
-     
-  
+  <div className="flex flex-wrap gap-4">
+        
+        <Button className="text-yellow-400" onClick={() => props.setOpenModal("size")}>สนับสนุนนักพัฒนา.</Button>
+      </div>
+      <Modal show={props.openModal === "size"} size={props.modalSize} onClose={() => props.setOpenModal(undefined)}>
+        <Modal.Header className="text-black" >ขอบคุณสำหรับ Donate.</Modal.Header>
+        <Modal.Body>
+          <div className="space-y-6 p-6  ">
+          <p className="border-2 border-indigo-600 text-lg text-center leading-relaxed text-red-400 "> ต้องการสนับสนุนนักพัฒนาเว็บไซต์ MMV Calculator  </p>
+             <p className=" leading-relaxed text-green-600" >BitkubNEXT Wallet : 0831100612 </p>
+             <p className=" leading-relaxed text-blue-600">KUB -LUMI -USDT -TOKEN -NFT</p>
+          
+          </div>
+        </Modal.Body>
+      </Modal>
       <div className="border-dashed border-2 border-indigo-600" >
       <div className="grid  grid-cols-2 gap-4 ">
       
@@ -1010,10 +1028,13 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           </a>
           </Link>
     </div>
+    
     </div>
+    
       </div>
-      
+     
      <Footer />
+     
       </div>
       
      

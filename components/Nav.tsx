@@ -22,6 +22,7 @@ const Nav = () => {
         <span className="select-none font-medium  text-center ">MMV Calculator Thailand</span>
       </div>
       <Themes/>
+      
         </nav>
   );
 };

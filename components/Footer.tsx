@@ -1,12 +1,14 @@
 import React from "react";
 import Image from "next/image";
 
-
 function Footer() {
+
+
   return (
 
     
     <footer className="bg-Footer bg-cover bg-local footer-center p-3  text-primary-content">
+       
     <div>
     <Image 
               width={80}

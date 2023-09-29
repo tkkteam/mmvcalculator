@@ -28,10 +28,11 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
                     });
                 `}
             </Script>
-            
+           
             <Head>
                 <meta name="viewport" content="initial-scale=1, width=device-width" />
             </Head>
+            
             <Component {...pageProps} />
         </>
         
