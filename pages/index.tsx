@@ -10,7 +10,6 @@ import useSWR from "swr";
 import axios from "axios";
 import { CSSTransition } from "react-transition-group";
 import { useEffect, useState } from "react";
-import Script from "next/script";
 import { Carousel } from "antd";
 import { Button, Modal,} from "flowbite-react";
 
@@ -169,13 +168,6 @@ function Home() {
         <title>Morning Moon Village Calculator</title>
       </Head>   
       <Navbar />
-      <Script
-   id="Adsense-id"
-   data-ad-client="ca-pub-3649237172941694"
-  async strategy="afterInteractive"
-  onError={ (e) => { console.error("Script failed to load", e) }}
-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-/>
 
   <div className="xl:max-w-screen-xl gap-y-4 container flex flex-col self-center flex-1 p-4">
   <Carousel autoplay>

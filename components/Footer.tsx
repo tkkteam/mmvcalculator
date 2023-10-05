@@ -34,7 +34,6 @@ function Footer() {
           <p className="border-2 border-indigo-600 text-lg text-center leading-relaxed text-red-400 "> ต้องการสนับสนุนนักพัฒนาเว็บไซต์ MMV Calculator  </p>
              <p className=" leading-relaxed text-green-600" >BitkubNEXT Wallet : 0831100612 </p>
              <p className=" leading-relaxed text-blue-600">KUB -LUMI -USDT -TOKEN -NFT</p>
-          
           </div>
         </Modal.Body>
       </Modal>
