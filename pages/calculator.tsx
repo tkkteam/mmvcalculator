@@ -141,6 +141,7 @@ const Calculator: NextPage = () => {
           address: "018391166b47632b95fd50b3c37e8b25cc61ea29",
         },
         
+        
       ];
 
       const totalLiquiditiesResponse = await Promise.all(
