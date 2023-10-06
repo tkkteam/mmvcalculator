@@ -794,7 +794,7 @@ function Home() {
            <Image 
              width={90}
              height={90}
-             src="/npc/TheMayor.png"
+             src="/npc/Themayor.png"
             objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
