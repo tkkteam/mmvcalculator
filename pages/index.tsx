@@ -12,6 +12,7 @@ import { CSSTransition } from "react-transition-group";
 import { useEffect, useState } from "react";
 import { Carousel } from "antd";
 import { Button, Modal,} from "flowbite-react";
+import { Space, Tooltip } from "antd";
 
 
 
@@ -31,7 +32,9 @@ function Home() {
   const [openModal, setOpenModal] = useState<string | undefined>();
   const [modalSize, setModalSize] = useState<string>("sm");
   const props = { modalSize, openModal, setModalSize, setOpenModal };
-
+  const colors = [
+    'purple',
+  ];
 
   const initialRates = async () => {
     const now = Math.floor(Date.now() / 1000);
@@ -168,7 +171,6 @@ function Home() {
         <title>Morning Moon Village Calculator</title>
       </Head>   
       <Navbar />
-
   <div className="xl:max-w-screen-xl gap-y-4 container flex flex-col self-center flex-1 p-4">
   <Carousel autoplay>
     <div>
@@ -439,11 +441,11 @@ function Home() {
             
           />
         </div>
+
       <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 border-dotted border-2 border-blue-600 rounded-box w-64">
       <li>
     <Link href="/learning/guide">
     <p className="text-red-600">ความรู้ทั่วไปทั้งหมด</p>
-    
      </Link>
      </li>
 
@@ -725,7 +727,7 @@ function Home() {
         </Link>
         </div>
         </div> 
-       
+        
         <div className="grid flex-grow  place-items-center">
   <div className="hover:translate-y-1 transition-all rounded">
         <Link href="/calculator">
@@ -773,11 +775,127 @@ function Home() {
           />
             </a>
         </Link>  
+       
         </div>
             </div> 
-            </div>
+            </div> 
+           
+    </aside>
+    
+        {/*-----------------------------NPC-------------------------- */}
+
+    <aside className="grid grid-cols-2 md:grid-cols-1 sm:w-48  border-t-4 border-indigo-500">
+    <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+  <Link href="/NPC/TheMayor">
+  <Space wrap>
+      {colors.map((color) => (
+        <Tooltip title="NPC The Mayor" color={color} key={color}>
+           <Image 
+             width={90}
+             height={90}
+             src="/npc/TheMayor.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+        </Tooltip>
+      ))}
+    </Space>
+        </Link>  
+        </div>
+            </div> 
+            <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:translate-y-1 transition-all rounded">
+  <Link href="https://www.mmv-toolkit.com/">
+            <a target="_blank">
+            <Image 
+             width={90}
+             height={90}
+             src="/npc/Soon.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+            </a>
+        </Link>  
+        </div>
+            </div> 
+            <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:translate-y-1 transition-all rounded">
+  <Link href="https://www.mmv-toolkit.com/">
+            <a target="_blank">
+            <Image 
+             width={90}
+             height={90}
+             src="/npc/Soon.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+            </a>
+        </Link>  
+        </div>
+            </div> 
+            <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:translate-y-1 transition-all rounded">
+  <Link href="https://www.mmv-toolkit.com/">
+            <a target="_blank">
+            <Image 
+             width={90}
+             height={90}
+             src="/npc/Soon.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+            </a>
+        </Link>  
+        </div>
+            </div> 
+            <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:translate-y-1 transition-all rounded">
+  <Link href="https://www.mmv-toolkit.com/">
+            <a target="_blank">
+            <Image 
+             width={90}
+             height={90}
+             src="/npc/Soon.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+            </a>
+        </Link>  
+        </div>
+            </div> 
+            <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:translate-y-1 transition-all rounded">
+  <Link href="https://www.mmv-toolkit.com/">
+            <a target="_blank">
+            <Image 
+             width={90}
+             height={90}
+             src="/npc/Soon.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+            </a>
+        </Link>  
+        </div>
+            </div> 
+
+
     </aside>
     </div>
+   
     <Image 
             width={1170}
             height={95}
