@@ -11,7 +11,7 @@ function TheMayor() {
         "pink",
       ];
   return (
-    <div className="bg-base-200 flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
+    <div className="bg-npc bg-cover flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
     <Head>
         <title>แนะนำ NPC</title>
       </Head> 
@@ -21,7 +21,7 @@ function TheMayor() {
             <Image 
              width={150}
              height={150}
-             src="/npc/npc1.png"
+             src="/npc/Themayor.png"
             objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
@@ -32,7 +32,7 @@ function TheMayor() {
       </div>
         <div className="grid  grid-cols-2 gap-2 min-h-screen">
   <div className="flex-1">
-  <div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+  <div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-1">
           <Space wrap>
       {colors.map((color) => (
@@ -67,9 +67,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">Empty Bottle</p>   
+  <p className="p-6 truncate hover:text-clip text-black">Empty Bottle</p>   
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-2">
           <Space wrap>
       {colors.map((color) => (
@@ -104,9 +104,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">Health Potion</p>   
+  <p className="p-6 truncate hover:text-clip text-black">Health Potion</p>   
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-3">
           <Space wrap>
       {colors.map((color) => (
@@ -141,9 +141,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">Magic Solution</p>   
+  <p className="p-6 truncate hover:text-clip text-black">Magic Solution</p>   
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-4">
           <Space wrap>
       {colors.map((color) => (
@@ -184,9 +184,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">Bulky EGG</p>
+  <p className="p-6 truncate hover:text-clip text-black">Bulky EGG</p>
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-5">
           <Space wrap>
       {colors.map((color) => (
@@ -227,9 +227,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">Morning Box</p>   
+  <p className="p-6 truncate hover:text-clip text-black">Morning Box</p>   
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-6">
           <Space wrap>
       {colors.map((color) => (
@@ -264,9 +264,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">Breeding foam</p>   
+  <p className="p-6 truncate hover:text-clip text-black">Breeding foam</p>   
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-7">
           <Space wrap>
       {colors.map((color) => (
@@ -307,9 +307,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">BRONZE HATCHET</p>   
+  <p className="p-6 truncate hover:text-clip text-black">BRONZE HATCHET</p>   
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-8">
           <Space wrap>
       {colors.map((color) => (
@@ -350,12 +350,12 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">BRONZE MACE</p>   
+  <p className="p-6 truncate hover:text-clip text-black">BRONZE MACE</p>   
 </div>
 
       </div>
   <div className="flex-1">
-  <div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+  <div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-9">
           <Space wrap>
       {colors.map((color) => (
@@ -390,10 +390,10 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">Lesser Health Potion</p>
+  <p className="p-6 truncate hover:text-clip text-black">Lesser Health Potion</p>
                 
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-10">
           <Space wrap>
       {colors.map((color) => (
@@ -428,10 +428,10 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">Silver Key</p>
+  <p className="p-6 truncate hover:text-clip text-black">Silver Key</p>
                 
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-11">
           <Space wrap>
       {colors.map((color) => (
@@ -472,10 +472,10 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">Angelic Box</p>
+  <p className="p-6 truncate hover:text-clip text-black">Angelic Box</p>
                 
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-12">
           <Space wrap>
       {colors.map((color) => (
@@ -516,10 +516,10 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">Gemstone Box</p>
+  <p className="p-6 truncate hover:text-clip text-black">Gemstone Box</p>
                 
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-13">
           <Space wrap>
       {colors.map((color) => (
@@ -557,10 +557,10 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">Mangosteen</p>
+  <p className="p-6 truncate hover:text-clip text-black">Mangosteen</p>
                 
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-14">
           <Space wrap>
       {colors.map((color) => (
@@ -598,10 +598,10 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">Breeding Elixir</p>
+  <p className="p-6 truncate hover:text-clip text-black">Breeding Elixir</p>
                 
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-15">
           <Space wrap>
       {colors.map((color) => (
@@ -642,10 +642,10 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">BRONZE MAUL</p>
+  <p className="p-6 truncate hover:text-clip text-black">BRONZE MAUL</p>
                 
 </div>
-<div className="flex items-center p-3  font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-16">
           <Space wrap>
       {colors.map((color) => (
@@ -686,7 +686,7 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip">SIMPLE CAPE</p>
+  <p className="p-6 truncate hover:text-clip text-black">SIMPLE CAPE</p>
                 
 </div>
 

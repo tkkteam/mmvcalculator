@@ -808,8 +808,7 @@ function Home() {
             </div> 
             <div className="grid flex-grow  place-items-center"> 
   <div className="hover:translate-y-1 transition-all rounded">
-  <Link href="https://www.mmv-toolkit.com/">
-            <a target="_blank">
+ 
             <Image 
              width={90}
              height={90}
@@ -819,14 +818,12 @@ function Home() {
             className=" max-w-full h-auto "
             
           />
-            </a>
-        </Link>  
+          
         </div>
             </div> 
             <div className="grid flex-grow  place-items-center"> 
   <div className="hover:translate-y-1 transition-all rounded">
-  <Link href="https://www.mmv-toolkit.com/">
-            <a target="_blank">
+  
             <Image 
              width={90}
              height={90}
@@ -836,14 +833,12 @@ function Home() {
             className=" max-w-full h-auto "
             
           />
-            </a>
-        </Link>  
+          
         </div>
             </div> 
             <div className="grid flex-grow  place-items-center"> 
   <div className="hover:translate-y-1 transition-all rounded">
-  <Link href="https://www.mmv-toolkit.com/">
-            <a target="_blank">
+  
             <Image 
              width={90}
              height={90}
@@ -853,14 +848,12 @@ function Home() {
             className=" max-w-full h-auto "
             
           />
-            </a>
-        </Link>  
+          
         </div>
             </div> 
             <div className="grid flex-grow  place-items-center"> 
   <div className="hover:translate-y-1 transition-all rounded">
-  <Link href="https://www.mmv-toolkit.com/">
-            <a target="_blank">
+  
             <Image 
              width={90}
              height={90}
@@ -870,14 +863,12 @@ function Home() {
             className=" max-w-full h-auto "
             
           />
-            </a>
-        </Link>  
+         
         </div>
             </div> 
             <div className="grid flex-grow  place-items-center"> 
   <div className="hover:translate-y-1 transition-all rounded">
-  <Link href="https://www.mmv-toolkit.com/">
-            <a target="_blank">
+  
             <Image 
              width={90}
              height={90}
@@ -887,8 +878,7 @@ function Home() {
             className=" max-w-full h-auto "
             
           />
-            </a>
-        </Link>  
+         
         </div>
             </div> 
 
