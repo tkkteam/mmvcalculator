@@ -1540,7 +1540,7 @@ function Mathilda() {
     <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2">
       
-      <div className="text-black">1X
+      <div className="text-black">3X
       <div className="tooltip" data-tip="Aquarium Ticket">
       <Image width={35}height={35}src="/token/aquarium ticket.png"/></div>
       </div> 
