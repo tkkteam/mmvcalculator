@@ -807,17 +807,24 @@ function Home() {
         </div>
             </div> 
             <div className="grid flex-grow  place-items-center"> 
-  <div className="hover:translate-y-1 transition-all rounded">
- 
-            <Image 
+            <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+  <Link href="/NPC/Mathilda">
+  <Space wrap>
+      {colors.map((color) => (
+        <Tooltip title="NPC Mathilda" color={color} key={color}>
+           <Image 
              width={90}
              height={90}
-             src="/npc/Soon.png"
+             src="/npc/Mathilda.png"
             objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
             
           />
+        </Tooltip>
+      ))}
+    </Space>
+        </Link>  
           
         </div>
             </div> 
