@@ -711,6 +711,66 @@ function giftboxmmv() {
       </div>
  </div>
 </div>
+<div className="w-72 h-96 shadow-md rounded m-3 bg-neutral">
+    <div className="text-center mt-2">
+    <h2 className="p-2 font-semibold badge-primary">Aquarium I</h2>
+    <div className="p-2">
+    <label htmlFor="my-modal-24" className="btn btn-outline btn-primary">ไอเท็มดรอป</label>
+    </div>
+<input type="checkbox" id="my-modal-24" className="modal-toggle" />
+<div className="modal">
+  <div className="modal-box relative">
+  <label htmlFor="my-modal-24" className="btn btn-sm btn-circle absolute right-1 top-2">✕</label>
+    <h3 className="font-bold text-lg">ITEMS DROP</h3>
+    <Image
+            width={850}
+            height={850}
+            src="https://commumorning.firebaseapp.com/Box/Aquarium1_Box.png"
+            objectFit="cover"
+            alt="avatar"/>
+    </div>
+  </div>
+      <div className="h-3/3 w-full p-6">
+      <Image 
+            width={350}
+            height={350}
+            src="https://commumorning.firebaseapp.com/Box/Aquarium1.png"
+            objectFit="cover"
+            alt="avatar"
+          />
+      </div>
+ </div>
+</div>
+<div className="w-72 h-96 shadow-md rounded m-3 bg-neutral">
+    <div className="text-center mt-2">
+    <h2 className="p-2 font-semibold badge-primary">Aquarium II</h2>
+    <div className="p-2">
+    <label htmlFor="my-modal-25" className="btn btn-outline btn-primary">ไอเท็มดรอป</label>
+    </div>
+<input type="checkbox" id="my-modal-25" className="modal-toggle" />
+<div className="modal">
+  <div className="modal-box relative">
+  <label htmlFor="my-modal-25" className="btn btn-sm btn-circle absolute right-1 top-2">✕</label>
+    <h3 className="font-bold text-lg">ITEMS DROP</h3>
+    <Image
+            width={850}
+            height={850}
+            src="https://commumorning.firebaseapp.com/Box/Aquarium2_Box.png"
+            objectFit="cover"
+            alt="avatar"/>
+    </div>
+  </div>
+      <div className="h-3/3 w-full p-6">
+      <Image 
+            width={350}
+            height={350}
+            src="https://commumorning.firebaseapp.com/Box/Aquarium2.png"
+            objectFit="cover"
+            alt="avatar"
+          />
+      </div>
+ </div>
+</div>
 
 
 

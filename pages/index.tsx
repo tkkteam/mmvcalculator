@@ -691,8 +691,8 @@ function Home() {
                     <YoutubeEmbed embedId="ITWQ56JUlE4" />
    <Image 
             width={640}
-            height={360}
-            src="https://commumorning.firebaseapp.com/images/commu1.png"
+            height={427}
+            src="https://commumorning.firebaseapp.com/Notice/commu1.png"
             objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto"
