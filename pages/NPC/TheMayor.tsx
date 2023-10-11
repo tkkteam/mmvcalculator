@@ -55,6 +55,8 @@ function TheMayor() {
   <div className="border-dashed border-2 border-indigo-600 text-center mt-2">
   <h3 className=" font-bold text-lg text-red-600">แหล่งที่มา</h3>
     <p className="text-yellow-600">ซื้อได้ที่ The Mayor หรือ จากการตกปลา</p>
+    <h3 className=" font-bold text-lg text-red-600">การใช้งาน</h3>
+    <p className="text-yellow-600">ใช้สำหรับทำยา</p>
     <p className="py-4"> 
     <Image 
              width={150}
@@ -289,6 +291,8 @@ function TheMayor() {
   <div className="border-dashed border-2 border-indigo-600 text-center mt-2">
   <h3 className=" font-bold text-lg text-red-600">แหล่งที่มา</h3>
     <p className="text-yellow-600">ซื้อได้ที่ The Mayor</p>
+    <h3 className=" font-bold text-lg text-red-600">โอกาสคราฟได้</h3>
+    <p className="text-yellow-600">Wood chopping Damage +2 to +3</p>
     <button className="btn">
         <Link href="/weapon/PremiumAxe">
         <a target="_blank">การตีบวกอุปกรณ์
@@ -332,6 +336,8 @@ function TheMayor() {
   <div className="border-dashed border-2 border-indigo-600 text-center mt-2">
   <h3 className=" font-bold text-lg text-red-600">แหล่งที่มา</h3>
     <p className="text-yellow-600">ซื้อได้ที่ The Mayor</p>
+    <h3 className=" font-bold text-lg text-red-600">โอกาสคราฟได้</h3>
+    <p className="text-yellow-600">Smashing  Damage +2 to +3</p>
     <button className="btn">
         <Link href="/weapon/PremiumClub">
         <a target="_blank">การตีบวกอุปกรณ์
@@ -624,6 +630,8 @@ function TheMayor() {
   <div className="border-dashed border-2 border-indigo-600 text-center mt-2">
   <h3 className=" font-bold text-lg text-red-600">แหล่งที่มา</h3>
     <p className="text-yellow-600">ซื้อได้ที่ The Mayor</p>
+    <h3 className=" font-bold text-lg text-red-600">โอกาสคราฟได้</h3>
+    <p className="text-yellow-600">Rock Breaking Damage +2 to +3</p>
     <button className="btn">
         <Link href="/weapon/PremiumHammer">
         <a target="_blank">การตีบวกอุปกรณ์
@@ -668,6 +676,8 @@ function TheMayor() {
   <div className="border-dashed border-2 border-indigo-600 text-center mt-2">
   <h3 className=" font-bold text-lg text-red-600">แหล่งที่มา</h3>
     <p className="text-yellow-600">ซื้อได้ที่ The Mayor</p>
+    <h3 className=" font-bold text-lg text-red-600">โอกาสคราฟได้</h3>
+    <p className="text-yellow-600">All Energy cost -4% to -2%</p>
     <button className="btn">
         <Link href="/weapon/PremiumCloak">
         <a target="_blank">การตีบวกอุปกรณ์
