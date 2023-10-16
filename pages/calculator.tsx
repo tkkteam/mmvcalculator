@@ -27,7 +27,7 @@ const Calculator: NextPage = () => {
   const [thbUsd, setThbUsd] = useState<number | null>(null);
   const [plantKind] = useState<PlantKind>("SEED");
   const [seedKind, setSeedKind] = useState<SeedKind>("TOMATO");
-  const [rewardMultiplier, setRewardMultiplier] = useState<RewardMultiplier>(4);
+  const [rewardMultiplier, setRewardMultiplier] = useState<RewardMultiplier>(2);
   const [plantAmount, setPlantAmount] = useState<number | null>(null);
   const [totalLiquidity, setTotalLiquidity] = useState<number | null>(null);
   const [totalLiquidities, setTotalLiquidities] = useState<
@@ -539,7 +539,7 @@ const Calculator: NextPage = () => {
                   setSeedKind("TOMATO");
                   switch (plantKind) {
                     case "SEED":
-                      setRewardMultiplier(4);
+                      setRewardMultiplier(2);
                       break;
                    
                   }
@@ -556,7 +556,7 @@ const Calculator: NextPage = () => {
                   setSeedKind("CORN");
                   switch (plantKind) {
                     case "SEED":
-                      setRewardMultiplier(4);
+                      setRewardMultiplier(2);
                       break;
                    
                   }
@@ -573,7 +573,7 @@ const Calculator: NextPage = () => {
                   setSeedKind("CABBAGE");
                   switch (plantKind) {
                     case "SEED":
-                      setRewardMultiplier(4);
+                      setRewardMultiplier(2);
                       break;
                    
                   }
