@@ -557,7 +557,7 @@ function Home() {
      </Link>
       </li>
       <li>
-    <Link href="/weapon/upgrage">
+    <Link href="/weapon/upgrade">
     <a target="_blank">
     <p className="text-blue-600">การอัพเกจอุปกรณ์</p>
      </a>
