@@ -557,6 +557,13 @@ function Home() {
      </Link>
       </li>
       <li>
+    <Link href="/weapon/upgrage">
+    <a target="_blank">
+    <p className="text-blue-600">การอัพเกจอุปกรณ์</p>
+     </a>
+     </Link>
+      </li>
+      <li>
     <Link href="/weapon/PremiumAxe">
     <a target="_blank">
     <p className="text-blue-600">BRONZE HATCHET</p>
@@ -828,6 +835,30 @@ function Home() {
           
         </div>
             </div> 
+           
+            <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+  
+  <Link href="/weapon/upgrade">
+  <Space wrap>
+      {colors.map((color) => (
+        <Tooltip title="NPC Joe ตีบวก" color={color} key={color}>
+           <Image 
+             width={90}
+             height={90}
+             src="/npc/joe.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+        </Tooltip>
+      ))}
+    </Space>
+        </Link>  
+          
+        </div>
+            </div> 
             <div className="grid flex-grow  place-items-center"> 
   <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
   
@@ -850,21 +881,6 @@ function Home() {
     </Space>
     </a>
         </Link>  
-          
-        </div>
-            </div> 
-            <div className="grid flex-grow  place-items-center"> 
-  <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-  
-            <Image 
-             width={90}
-             height={90}
-             src="/npc/Soon.png"
-            objectFit="contain"
-            alt="avatar"
-            className=" max-w-full h-auto "
-            
-          />
           
         </div>
             </div> 
