@@ -474,9 +474,9 @@ function Home() {
       </li>
   
       <li>
-    <Link href="/learning/6">
+    <Link href="https://bit.ly/3Lg9mpP">
     <a target="_blank">
-    <p className="text-blue-600">การเล่นบิงโก</p>
+    <p className="text-blue-600">PET สัตว์เลี้ยง</p>
      </a>
      </Link>
       </li>
@@ -829,7 +829,32 @@ function Home() {
         </div>
             </div> 
             <div className="grid flex-grow  place-items-center"> 
-  <div className="hover:translate-y-1 transition-all rounded">
+  <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+  
+  <Link href="https://bit.ly/3Lg9mpP">
+  <a target="_blank">
+  <Space wrap>
+      {colors.map((color) => (
+        <Tooltip title="Companion" color={color} key={color}>
+           <Image 
+             width={90}
+             height={90}
+             src="/npc/PET.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+        </Tooltip>
+      ))}
+    </Space>
+    </a>
+        </Link>  
+          
+        </div>
+            </div> 
+            <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
   
             <Image 
              width={90}
@@ -844,22 +869,7 @@ function Home() {
         </div>
             </div> 
             <div className="grid flex-grow  place-items-center"> 
-  <div className="hover:translate-y-1 transition-all rounded">
-  
-            <Image 
-             width={90}
-             height={90}
-             src="/npc/Soon.png"
-            objectFit="contain"
-            alt="avatar"
-            className=" max-w-full h-auto "
-            
-          />
-          
-        </div>
-            </div> 
-            <div className="grid flex-grow  place-items-center"> 
-  <div className="hover:translate-y-1 transition-all rounded">
+  <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
   
             <Image 
              width={90}
@@ -874,7 +884,7 @@ function Home() {
         </div>
             </div> 
             <div className="grid flex-grow  place-items-center"> 
-  <div className="hover:translate-y-1 transition-all rounded">
+  <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
   
             <Image 
              width={90}
