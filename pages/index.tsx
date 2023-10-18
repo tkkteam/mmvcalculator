@@ -861,6 +861,26 @@ function Home() {
             </div> 
             <div className="grid flex-grow  place-items-center"> 
   <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
+  <Link href="/NPC/Mira">
+  <Space wrap>
+      {colors.map((color) => (
+        <Tooltip title="NPC Mira" color={color} key={color}>
+            <Image 
+             width={90}
+             height={90}
+             src="/npc/Mira.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+          />
+           </Tooltip>
+      ))}
+    </Space>
+          </Link>  
+        </div>
+            </div> 
+            <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
   
   <Link href="https://bit.ly/3Lg9mpP">
   <a target="_blank">
@@ -884,21 +904,7 @@ function Home() {
           
         </div>
             </div> 
-            <div className="grid flex-grow  place-items-center"> 
-  <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
-  
-            <Image 
-             width={90}
-             height={90}
-             src="/npc/Soon.png"
-            objectFit="contain"
-            alt="avatar"
-            className=" max-w-full h-auto "
-            
-          />
-         
-        </div>
-            </div> 
+           
             <div className="grid flex-grow  place-items-center"> 
   <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
   

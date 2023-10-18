@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import NavNpc from "../../components/NavNpc";
 import Image from "next/image";
 import Head from "next/head";
@@ -28,9 +28,9 @@ function Mathilda() {
           /> 
         </div>
         <div className="card bg-base-100 flex flex-col p-4 space-y-4 overflow-hidden shadow-lg">
-          <h1 className="text-lg font-medium text-center">สวัสดีคุณลูกค้าท่านต้องการดูสินค้าชิ้นไหนเลือกดูได้เลย</h1>
+          <h1 className="text-lg font-medium text-center">ยินดีต้อนรับเข้าสู่ร้าน Mathilda Shop</h1>
       </div>
-        <div className="grid  grid-cols-2 gap-2 min-h-screen">
+<div className="grid  grid-cols-2 gap-2 min-h-screen">
   <div className="flex-1">
 <div className="flex items-center p-3 bg-green-200 hover:bg-yellow-200 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-blue-500">
           <label htmlFor="my-modal-1">
@@ -127,7 +127,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Health Potion (MILK)</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-3">
       
       <div className="text-black">1X
@@ -145,7 +145,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/Honey.png"/></div>
       </div>
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -187,14 +187,14 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Corn Soup</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1 md:grid-cols-1 ">
       <div className="text-black">10X
       <div className="tooltip" data-tip="corn">
       <Image width={35}height={35}src="/token/corn.png"/></div>
       </div>  
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -236,7 +236,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Dye Apple</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2 ">
       
       <div className="text-black">1X
@@ -249,7 +249,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/GreenApple.png"/></div>
       </div>
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -291,7 +291,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">HONEY</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-4 ">
       
       <div className="text-black">2X
@@ -299,7 +299,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/HoneyComb.png"/></div>
       </div>  
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -345,7 +345,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Stone Hammer</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2 ">
       
       <div className="text-black ">30X
@@ -357,7 +357,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/Stone.png"/></div>
       </div> 
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -403,7 +403,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Wooden Club</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-4 ">
       
       <div className="text-black">120X
@@ -412,7 +412,7 @@ function Mathilda() {
       </div>  
       
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -454,7 +454,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Breeding foam</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2 ">
       
       <div className="text-black">20X
@@ -463,7 +463,7 @@ function Mathilda() {
       </div>  
       
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -511,7 +511,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">OtherworldlyBox</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2 ">
       
       <div className="text-black">1X
@@ -523,7 +523,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/otherworldly_dust.png"/></div>
       </div> 
     </div>
-    </p>
+    </div>
   </div>
 </div>
 <div className="flex items-center p-3 bg-green-200 hover:bg-yellow-200 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-blue-500">
@@ -570,7 +570,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Aquarium II</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2">
       
       <div className="text-black">3X
@@ -578,7 +578,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/aquarium ticket.png"/></div>
       </div> 
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -626,7 +626,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">OrangeBox (Fish Food)</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2 ">
       
       <div className="text-black">1,000X
@@ -635,7 +635,7 @@ function Mathilda() {
       </div>  
 
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -682,7 +682,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">MATHILDA'S BRONZE HATCHET</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-3 ">
       
       <div className="text-black">200X
@@ -694,7 +694,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/CopperPiece.png"/></div>
       </div>  
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -741,7 +741,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">MATHILDA'S BRONZE MACE</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-3 ">
       
       <div className="text-black">100X
@@ -757,7 +757,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/CopperPiece.png"/></div>
       </div>  
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -803,7 +803,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">MATHILDA'S Silk Slippers</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-3 ">
       
       <div className="text-black">30X
@@ -815,7 +815,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/leather.png"/></div>
       </div>  
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -859,7 +859,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">MATHILDA'S Tree Branch Ring</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-3 ">
       
       <div className="text-black">30X
@@ -871,7 +871,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/HoneyComb.png"/></div>
       </div>  
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -921,7 +921,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Sky Dotted Egg</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-6 ">
       
       <div className="text-black">400X
@@ -945,7 +945,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/MilkeChick.png"/></div>
       </div>   
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -995,7 +995,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Gloomy Dotted Egg</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-6 ">
       
       <div className="text-black">100X
@@ -1019,7 +1019,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/Ebony chick.png"/></div>
       </div>   
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1069,7 +1069,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">white Cupid</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-6 ">
       
       <div className="text-black">200X
@@ -1093,7 +1093,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/MilkeChick.png"/></div>
       </div>   
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1138,7 +1138,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Health Potion</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-4">
       
       <div className="text-black">1X
@@ -1158,7 +1158,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/Honey.png"/></div>
       </div>
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1200,7 +1200,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Tomato Soup</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2">
       
       <div className="text-black">10X
@@ -1208,7 +1208,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/Tomato.png"/></div>
       </div>  
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1250,7 +1250,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Stir Fried Cabbage</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2">
       
       <div className="text-black">10X
@@ -1258,7 +1258,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/cabbage.png"/></div>
       </div>  
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1300,7 +1300,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Salad</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-3">
       
       <div className="text-black">4X
@@ -1316,7 +1316,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/Honey.png"/></div>
       </div> 
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1362,7 +1362,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Stone AXE</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2 ">
       
       <div className="text-black ">120X
@@ -1374,7 +1374,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/Stone.png"/></div>
       </div> 
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1420,7 +1420,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Stone Sickle</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2 ">
       
       <div className="text-black ">60X
@@ -1432,7 +1432,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/Stone.png"/></div>
       </div> 
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1474,7 +1474,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Fruit Salad</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-4">
       
       <div className="text-black">2X
@@ -1494,7 +1494,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/Honey.png"/></div>
       </div> 
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1536,7 +1536,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Breeding Elixir</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2">
       
       <div className="text-black">20X
@@ -1544,7 +1544,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/teardrop.png"/></div>
       </div> 
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1592,7 +1592,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Aquarium I</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2">
       
       <div className="text-black">3X
@@ -1600,7 +1600,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/aquarium ticket.png"/></div>
       </div> 
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1648,7 +1648,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">OrangeBox</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-3">
       
       <div className="text-black">600X
@@ -1664,7 +1664,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/Tainted Leaf.png"/></div>
       </div>  
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1711,7 +1711,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">MATHILDA'S BRONZE MAUL</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div  className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-3 ">
       
       <div className="text-black">200X
@@ -1723,7 +1723,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/CopperPiece.png"/></div>
       </div>  
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1769,7 +1769,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">MATHILDA'S Woodcutter Gloves</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2">
       
       <div className="text-black">50X
@@ -1777,7 +1777,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/leather.png"/></div>
       </div>    
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1823,7 +1823,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">MATHILDA'S IRON Greaves</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-3 ">
       
       <div className="text-black">30X
@@ -1835,7 +1835,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/Iron.png"/></div>
       </div>   
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1885,7 +1885,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Cherry Dotted Egg</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-4 ">
       
       <div className="text-black">400X
@@ -1905,7 +1905,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/MilkeChick.png"/></div>
       </div>   
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -1955,7 +1955,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Grassy Dotted Egg</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-6 ">
       
       <div className="text-black">400X
@@ -1979,7 +1979,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/MilkeChick.png"/></div>
       </div>   
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -2021,7 +2021,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">RAKALAI</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-6 ">
       
       <div className="text-black">5X
@@ -2029,7 +2029,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/gilded chick.png"/></div>
       </div>    
     </div>
-    </p>
+    </div>
   </div>
 </div>
 
@@ -2078,7 +2078,7 @@ function Mathilda() {
   <div className="flex flex-col justify-start ">
   <p className=" text-black text-sm md:text-base md:truncate">Dark Cupid</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
-    <p className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-6 ">
       
     <div className="text-black">200X
@@ -2102,7 +2102,7 @@ function Mathilda() {
       <Image width={35}height={35}src="/token/Ebony chick.png"/></div>
       </div>     
     </div>
-    </p>
+    </div>
   </div>
 </div>
 

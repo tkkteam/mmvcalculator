@@ -797,6 +797,162 @@ import Head from "next/head";
       </div>
       <div className="bg-white w-72 h-100 shadow-md rounded m-3">
     <div className="text-center mt-2">
+    <h2 className="font-semibold text-gray-800">THE MAYOR Adventurer Cloak</h2>
+    <h1 className="font-semibold text-blue-800">AllEnergyCostPercent</h1>
+    
+      <div className="h-1/1 w-full p-6">
+      <Image 
+            width={150}
+            height={150}
+            src="https://commumorning.firebaseapp.com/weapon/AdventurerCloak.png"
+            objectFit="cover"
+            alt="avatar"
+          />
+          
+      </div>
+      <div className="font-semibold badge badge-primary">ผ้าคลุมพรีเมี่ยม</div>
+      <div className="text-center mt-1">  
+     <div className="px-2 py-2 bg-white text-sm">
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+1</p>
+       </div>
+      <div className="ml-3">
+     <h2 className="font-semibold text-black">All Energy cost -4%</h2>
+        </div>
+         </div>
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+2</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Max Health +6</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+3</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Open Socket +1</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+4</p>
+       </div>
+      <div className="ml-3">
+     <h2 className="font-semibold text-black">All Energy cost -4%</h2>
+        </div>
+         </div>
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+5</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Max Health +6</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+6</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Open Socket +1</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+7</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Max Health +8</h2> 
+        </div>
+         </div>
+          </div>                            
+      </div>
+      </div>                            
+      </div>
+      <div className="bg-white w-72 h-100 shadow-md rounded m-3">
+    <div className="text-center mt-2">
+    <h2 className="font-semibold text-gray-800">THE MAYOR HunterMantle</h2>
+    <h1 className="font-semibold text-blue-800">AllEnergyCostPercent</h1>
+    
+      <div className="h-1/1 w-full p-6">
+      <Image 
+            width={150}
+            height={150}
+            src="https://commumorning.firebaseapp.com/weapon/HunterMantle.png"
+            objectFit="cover"
+            alt="avatar"
+          />
+          
+      </div>
+      <div className="font-semibold badge badge-primary">ผ้าคลุมพรีเมี่ยม</div>
+      <div className="text-center mt-1">  
+     <div className="px-2 py-2 bg-white text-sm">
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+1</p>
+       </div>
+      <div className="ml-3">
+     <h2 className="font-semibold text-black">All Energy cost -4%</h2>
+        </div>
+         </div>
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+2</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Max Health +6</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+3</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Open Socket +1</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+4</p>
+       </div>
+      <div className="ml-3">
+     <h2 className="font-semibold text-black">All Energy cost -4%</h2>
+        </div>
+         </div>
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+5</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Max Health +6</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+6</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Open Socket +1</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+7</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Max Health +8</h2> 
+        </div>
+         </div>
+          </div>                            
+      </div>
+      </div>                            
+      </div>
+      <div className="bg-white w-72 h-100 shadow-md rounded m-3">
+    <div className="text-center mt-2">
     <h2 className="font-semibold text-gray-800">THE MAYOR Leather Boots</h2>
     <h1 className="font-semibold text-blue-800">ExhaustAvoidance</h1>
     
@@ -873,8 +1029,239 @@ import Head from "next/head";
       </div>
       </div>                            
       </div>
- 
-
+      <div className="bg-white w-72 h-100 shadow-md rounded m-3">
+    <div className="text-center mt-2">
+    <h2 className="font-semibold text-gray-800">THE MAYOR Steel Treads</h2>
+    <h1 className="font-semibold text-blue-800">MaimEffectReduction</h1>
+    
+      <div className="h-1/1 w-full p-6">
+      <Image 
+            width={150}
+            height={150}
+            src="https://commumorning.firebaseapp.com/weapon/Steel Treads.png"
+            objectFit="cover"
+            alt="avatar"
+          />
+          
+      </div>
+      <div className="font-semibold badge badge-primary">รองเท้าพรีเมี่ยม</div>
+      <div className="text-center mt-1">  
+     <div className="px-2 py-2 bg-white text-sm">
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+1</p>
+       </div>
+      <div className="ml-3">
+     <h2 className="font-semibold text-black">Chance Avoiding Exhaust +12%</h2>
+        </div>
+         </div>
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+2</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Max Health +6</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+3</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Open Socket +1</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+4</p>
+       </div>
+      <div className="ml-3">
+     <h2 className="font-semibold text-black">Reduce effect of Maim by %12</h2>
+        </div>
+         </div>
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+5</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Max Health +6</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+6</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Open Socket +1</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+7</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">All Damage Taken -8%</h2> 
+        </div>
+         </div>
+          </div>                            
+      </div>
+      </div>                            
+      </div>
+      <div className="bg-white w-72 h-100 shadow-md rounded m-3">
+    <div className="text-center mt-2">
+    <h2 className="font-semibold text-gray-800">THE MAYOR IRON Gauntlets</h2>
+    <h1 className="font-semibold text-blue-800">StoneGainQuantityPercent</h1>
+      <div className="h-1/1 w-full p-6">
+      <Image 
+            width={150}
+            height={150}
+            src="https://commumorning.firebaseapp.com/weapon/Iron Gauntlets.png"
+            objectFit="cover"
+            alt="avatar"
+          />
+          
+      </div>
+      <div className="font-semibold badge badge-primary">ถุงมือพรีเมี่ยม</div>
+      <div className="text-center mt-1">  
+     <div className="px-2 py-2 bg-white text-sm">
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+1</p>
+       </div>
+      <div className="ml-3">
+     <h2 className="font-semibold text-black">เพิ่มปริมาณไม้ที่ได้รับ +12%</h2>
+        </div>
+         </div>
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+2</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Max Health +6</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+3</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Open Socket +1</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+4</p>
+       </div>
+      <div className="ml-3">
+     <h2 className="font-semibold text-black">เพิ่มปริมาณหินที่ได้รับ %12</h2>
+        </div>
+         </div>
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+5</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Max Health +6</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+6</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Open Socket +1</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+7</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">All Damage Taken -8%</h2> 
+        </div>
+         </div>
+          </div>                            
+      </div>
+      </div>                            
+      </div>
+      <div className="bg-white w-72 h-100 shadow-md rounded m-3">
+    <div className="text-center mt-2">
+    <h2 className="font-semibold text-gray-800">THE MAYOR Leather Mitts</h2>
+    <h1 className="font-semibold text-blue-800">WoodGainQuantityPercent</h1>
+    <h1 className="font-semibold text-blue-800">StoneGainQuantityPercent</h1>
+      <div className="h-1/1 w-full p-6">
+      <Image 
+            width={150}
+            height={150}
+            src="https://commumorning.firebaseapp.com/weapon/Leather Mitts.png"
+            objectFit="cover"
+            alt="avatar"
+          />
+          
+      </div>
+      <div className="font-semibold badge badge-primary">ถุงมือพรีเมี่ยม</div>
+      <div className="text-center mt-1">  
+     <div className="px-2 py-2 bg-white text-sm">
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+1</p>
+       </div>
+      <div className="ml-3">
+     <h2 className="font-semibold text-black">เพิ่มปริมาณไม้ที่ได้รับ +12%</h2>
+        </div>
+         </div>
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+2</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Max Health +6</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+3</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Open Socket +1</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+4</p>
+       </div>
+      <div className="ml-3">
+     <h2 className="font-semibold text-black">เพิ่มปริมาณหินที่ได้รับ %12</h2>
+        </div>
+         </div>
+      <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+5</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Max Health +6</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+6</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">Open Socket +1</h2> 
+        </div>
+         </div>
+         <div className="flex items-center">
+      <div className="flex-shrink-0 w-9 h-6">
+      <p className="font-semibold badge badge-primary">+7</p>
+       </div>
+      <div className="ml-3">
+      <h2 className="font-semibold text-black">All Damage Taken -8%</h2> 
+        </div>
+         </div>
+          </div>                            
+      </div>
+      </div>                            
+      </div>
 
 
 

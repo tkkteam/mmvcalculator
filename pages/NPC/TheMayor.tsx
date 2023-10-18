@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import NavNpc from "../../components/NavNpc";
 import Image from "next/image";
 import Head from "next/head";
@@ -28,7 +28,7 @@ function TheMayor() {
           /> 
         </div>
         <div className="card bg-base-100 flex flex-col p-4 space-y-4 overflow-hidden shadow-lg">
-          <h1 className="text-lg font-medium text-center">สวัสดีคุณลูกค้าท่านต้องการดูสินค้าชิ้นไหนเลือกดูได้เลย</h1>
+          <h1 className="text-lg font-medium text-center">ยินดีต้อนรับเข้าสู่ร้าน THE Mayor Shop</h1>
       </div>
         <div className="grid  grid-cols-2 gap-2 min-h-screen">
   <div className="flex-1">
