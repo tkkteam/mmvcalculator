@@ -882,7 +882,7 @@ function Home() {
             <div className="grid flex-grow  place-items-center"> 
   <div className="hover:scale-110 transition duration-500 cursor-pointer object-cover">
   
-  <Link href="https://bit.ly/3Lg9mpP">
+  <Link href="/companion/levelup">
   <a target="_blank">
   <Space wrap>
       {colors.map((color) => (

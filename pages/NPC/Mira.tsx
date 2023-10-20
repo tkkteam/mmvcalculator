@@ -329,7 +329,7 @@ function Mira() {
          </div>
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
-      <div className="tooltip" data-tip="Iron">
+      <div className="tooltip" data-tip="Silver">
       <Image width={35}height={35}objectFit="contain"src="/token/SilverPiece.png"/>
      
       </div>
@@ -403,7 +403,7 @@ function Mira() {
          </div>
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
-      <div className="tooltip" data-tip="Iron">
+      <div className="tooltip" data-tip="Silver">
       <Image width={35}height={35}objectFit="contain"src="/token/SilverPiece.png"/>
      
       </div>
@@ -477,7 +477,7 @@ function Mira() {
          </div>
          <div className="flex items-center">
       <div className="flex-shrink-0 w-9 h-9">
-      <div className="tooltip" data-tip="Iron">
+      <div className="tooltip" data-tip="Silver">
       <Image width={35}height={35}objectFit="contain"src="/token/SilverPiece.png"/>
      
       </div>
