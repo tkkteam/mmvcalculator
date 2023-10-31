@@ -19,7 +19,6 @@ import { Space, Tooltip } from "antd";
 
 
 
-
 function Home() {
   const [thbKub, setThbKub] = useState<number | null>(null);
   const [usdtkkub, setusdtkkub] = useState<number | null>(null);
@@ -418,7 +417,7 @@ function Home() {
       </div> 
       </div> 
        {/*----------------------------------------END-------------------------- */}
-       
+  
           <Image 
             width={1170}
             height={95}

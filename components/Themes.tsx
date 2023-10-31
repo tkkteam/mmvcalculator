@@ -3,6 +3,7 @@ import useLocalStorageState from "use-local-storage-state";
 
 const themes = [
   "winter", 
+  "halloween",
   "dark",
   "night",
   

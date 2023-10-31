@@ -30,6 +30,7 @@ module.exports = {
   daisyui: {
     themes: [
       "winter",
+      "halloween",
       "dark",
       "night",
     ],
