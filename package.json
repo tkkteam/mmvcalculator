@@ -1,5 +1,5 @@
 {
-  "name": "mmvezvone",
+  "name": "mmvcalculator",
   "private": true,
   "scripts": {
     "dev": "next dev",
