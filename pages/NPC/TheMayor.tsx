@@ -14,7 +14,7 @@ function TheMayor() {
     <div className="bg-npc bg-cover flex flex-col w-screen h-screen overflow-auto min-w-[20rem]">
     <Head>
         <title>แนะนำ NPC</title>
-      </Head> 
+      </Head>
       <NavNpc />
       <div className="xl:max-w-screen-xl gap-y-4 container flex flex-col self-center flex-1 p-4">
       <div className= "p-2 text-2xl  flex items-center justify-center">
@@ -44,6 +44,7 @@ function TheMayor() {
              className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
              
           />
+          
         </Tooltip>
       ))}
     </Space>

@@ -173,7 +173,7 @@ function Home() {
   <div className="xl:max-w-screen-xl gap-y-4 container flex flex-col self-center flex-1 p-4">
   <Carousel autoplay>
     <div>
-    <Image src="https://commumorning.firebaseapp.com/images/nav1.png" alt="BANNER" width={900} height={350} />
+    <Image src="https://commumorning.firebaseapp.com/images/nav1.png" alt="BANNER" width={900} height={350}  />
     </div>
     <div>
     <Image src="https://commumorning.firebaseapp.com/images/nav2.png" alt="BANNER" width={900} height={350} />
@@ -981,7 +981,7 @@ function Home() {
   </div>
   <div className="grid flex-grow  place-items-center">
   <div className="hover:translate-y-1 transition-all rounded">
-        <Link href="https://www.cmhexa.com/cmdungeon">
+        <Link href="https://www.facebook.com/cmhexa">
         <a target="_blank">
         <Image 
              width={150}
@@ -1066,7 +1066,78 @@ function Home() {
   </div>
     </aside>
     </div>
-    
+    <Image 
+            width={1170}
+            height={95}
+            src="https://commumorning.firebaseapp.com/title/titlebarcommugame.png"
+            objectFit="cover"
+            alt="avatar"
+            className=" max-w-full h-auto "
+          />
+      <div className="grid grid-cols-2 gap-4 mx-auto">
+        <div className="w-full rounded transition ">
+        <Link href="https://herocat-website.vercel.app/">
+                <a target="_blank">
+                <Image 
+             width={450}
+             height={250}
+             src="https://commumorning.firebaseapp.com/commu/HEROCAT.gif"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+                </a>
+              </Link>
+        </div>
+        <div className="w-full rounded transition ">
+        <Link href="https://play.morningmoonvillage.com/">
+                <a target="_blank">
+                <Image 
+             width={450}
+             height={250}
+             src="https://commumorning.firebaseapp.com/commu/mmvgameplay.gif"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+                </a>
+              </Link>
+        </div>
+        <div className="w-full rounded transition ">
+        <Link href="#">
+                <a target="_blank">
+                <Image 
+             width={450}
+             height={250}
+             src="https://commumorning.firebaseapp.com/commu/Soonbanner.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+                </a>
+              </Link>
+        </div>
+        <div className="w-full rounded transition ">
+        <Link href="#">
+                <a target="_blank">
+                <Image 
+             width={450}
+             height={250}
+             src="https://commumorning.firebaseapp.com/commu/Soonbanner.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+                </a>
+              </Link>
+        </div>
+
+        </div>
+       
         <Image 
             width={1170}
             height={95}
