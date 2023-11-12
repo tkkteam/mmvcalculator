@@ -694,10 +694,18 @@ function Home() {
             className="max-w-full h-auto"
           />
                     
-                    <YoutubeEmbed embedId="ITWQ56JUlE4" />
+                  {/*<YoutubeEmbed embedId="ITWQ56JUlE4" /> */}
+    <Image 
+            width={640}
+            height={527}
+            src="https://commumorning.firebaseapp.com/Notice/commu2.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto"
+          />
    <Image 
             width={640}
-            height={427}
+            height={527}
             src="https://commumorning.firebaseapp.com/Notice/commu1.png"
             objectFit="contain"
             alt="avatar"
