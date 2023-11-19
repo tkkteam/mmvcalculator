@@ -14,8 +14,8 @@ import { CSSTransition } from "react-transition-group";
 
 
 type PlantKind = "SEED" | "STEM" | "LUMI";
-type SeedKind = "TOMATO" | "CORN" | "CABBAGE" | "CARROT" | "COFFEE" | "FISHFOOD"| "BLUEBERRY" | "LUMBER" | "METALPLATE" | "fineleather"| "MARBLE" ;
-type RewardMultiplier = 2 |3 | 4 | 5 | 6 | 8 | 9 | 12;
+type SeedKind = "TOMATO" | "CORN" | "CABBAGE" | "CARROT" | "COFFEE" | "FISHFOOD"| "BLUEBERRY" ;
+type RewardMultiplier = 1 |2 |3 | 4 | 5 | 6 | 8 | 9 | 12;
 
 const Calculator: NextPage = () => {
   const [thbKub, setThbKub] = useState<number | null>(null);
@@ -140,8 +140,8 @@ const Calculator: NextPage = () => {
           name: "seedFarmBlueberry",
           address: "018391166b47632b95fd50b3c37e8b25cc61ea29",
         },
-        
-        
+       
+       
       ];
 
       const totalLiquiditiesResponse = await Promise.all(
@@ -254,14 +254,7 @@ const Calculator: NextPage = () => {
             ? totalLiquidities[5]?.totalLiquidity
             : seedKind === "BLUEBERRY"
             ? totalLiquidities[6]?.totalLiquidity
-            : seedKind === "LUMBER"
-            ? totalLiquidities[7]?.totalLiquidity
-            : seedKind === "METALPLATE"
-            ? totalLiquidities[8]?.totalLiquidity
-            : seedKind === "fineleather"
-            ? totalLiquidities[9]?.totalLiquidity
-            : seedKind === "MARBLE"
-            ? totalLiquidities[10]?.totalLiquidity
+            
             : Infinity) +
             (plantAmount || 0));
 
@@ -646,75 +639,20 @@ const Calculator: NextPage = () => {
               >
                 BLUEBERRY
               </button>
-              <button
-                className={`btn btn-xl hover:bg-green-400  font-bold py-2 px-4 rounded-full font-medium rounded-lg text-sm px-5 py-2.5 text-center ${
-                  seedKind === "LUMBER" ? " btn-active" : ""
-                }`}
-                onClick={() => {
-                  setSeedKind("LUMBER");
-                  switch (plantKind) {
-                    case "SEED":
-                      setRewardMultiplier(2);
-                      break;
-                   
-                  }
-                }}
-              >
-                LUMBER
-              </button>
-              <button
-                className={`btn btn-xl hover:bg-green-400  font-bold py-2 px-4 rounded-full font-medium rounded-lg text-sm px-5 py-2.5 text-center ${
-                  seedKind === "METALPLATE" ? " btn-active" : ""
-                }`}
-                onClick={() => {
-                  setSeedKind("METALPLATE");
-                  switch (plantKind) {
-                    case "SEED":
-                      setRewardMultiplier(2);
-                      break;
-                   
-                  }
-                }}
-              >
-                METALPLATE
-              </button>
-              <button
-                className={`btn btn-xl hover:bg-green-400  font-bold py-2 px-4 rounded-full font-medium rounded-lg text-sm px-5 py-2.5 text-center ${
-                  seedKind === "fineleather" ? " btn-active" : ""
-                }`}
-                onClick={() => {
-                  setSeedKind("fineleather");
-                  switch (plantKind) {
-                    case "SEED":
-                      setRewardMultiplier(2);
-                      break;
-                   
-                  }
-                }}
-              >
-                FINELEATHER
-              </button>
-              <button
-                className={`btn btn-xl hover:bg-green-400  font-bold py-2 px-4 rounded-full font-medium rounded-lg text-sm px-5 py-2.5 text-center ${
-                  seedKind === "MARBLE" ? " btn-active" : ""
-                }`}
-                onClick={() => {
-                  setSeedKind("MARBLE");
-                  switch (plantKind) {
-                    case "SEED":
-                      setRewardMultiplier(2);
-                      break;
-                   
-                  }
-                }}
-              >
-                MARBLE
-              </button>
+            
             </div>
             
           )}
 
           <div className="btn-group self-center">
+          <button
+              className={`btn btn-xs${
+                rewardMultiplier === 1 ? " !btn-primary" : ""
+              }`}
+              disabled
+            >
+              1X
+            </button>
           <button
               className={`btn btn-xs${
                 rewardMultiplier === 2 ? " !btn-primary" : ""
@@ -863,40 +801,19 @@ const Calculator: NextPage = () => {
                               ? (totalLiquidities[6] &&
                                   parseFloat(
                                     totalLiquidities[6].totalLiquidity.toFixed(2)
-                                  ).toLocaleString("th-TH")) ||
+                                  ).toLocaleString("th-TH")) || 
                                   "-"
-                                  : seedKind === "LUMBER"
+                                  : seedKind === "Grasshopper"
                                   ? (totalLiquidities[7] &&
                                       parseFloat(
                                         totalLiquidities[7].totalLiquidity.toFixed(2)
-                                      ).toLocaleString("th-TH")) ||
-                                      "-"
-                                      : seedKind === "METALPLATE"
-                                      ? (totalLiquidities[8] &&
-                                          parseFloat(
-                                            totalLiquidities[8].totalLiquidity.toFixed(2)
-                                          ).toLocaleString("th-TH")) ||
-                                          "-"
-                                      : seedKind === "fineleather"
-                                      ? (totalLiquidities[9] &&
-                                          parseFloat(
-                                            totalLiquidities[9].totalLiquidity.toFixed(2)
-                                          ).toLocaleString("th-TH")) ||
-                                          "-"
-                                          : seedKind === "MARBLE"
-                                          ? (totalLiquidities[10] &&
-                                              parseFloat(
-                                                totalLiquidities[10].totalLiquidity.toFixed(2)
-                                              ).toLocaleString("th-TH")) ||
-
-                                  
-                              
+                                      ).toLocaleString("th-TH")) ||            
                         "-"
                       : "-"
                     : plantKind === "LUMI"
-                    ? (totalLiquidities[7] &&
+                    ? (totalLiquidities[8] &&
                         parseFloat(
-                          totalLiquidities[7].totalLiquidity.toFixed(2)
+                          totalLiquidities[8].totalLiquidity.toFixed(2)
                         ).toLocaleString("th-TH")) ||
                     "-"
                     : "-"

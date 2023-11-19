@@ -32,7 +32,7 @@ function TheMayor() {
       </div>
         <div className="grid  grid-cols-2 gap-2 min-h-screen">
   <div className="flex-1">
-  <div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+  <div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-1">
           <Space wrap>
       {colors.map((color) => (
@@ -49,6 +49,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">Empty Bottle</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 0.100</p>
+  </div>
 <input type="checkbox" id="my-modal-1" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -70,9 +74,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">Empty Bottle</p>   
+ 
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-2">
           <Space wrap>
       {colors.map((color) => (
@@ -88,6 +92,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">Health Potion</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 0.450</p>
+  </div>
 <input type="checkbox" id="my-modal-2" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -107,9 +115,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">Health Potion</p>   
+  
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-3">
           <Space wrap>
       {colors.map((color) => (
@@ -125,6 +133,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">Magic Solution</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 1.000</p>
+  </div>
 <input type="checkbox" id="my-modal-3" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -144,9 +156,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">Magic Solution</p>   
+   
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-4">
           <Space wrap>
       {colors.map((color) => (
@@ -162,6 +174,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">Bulky EGG</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 15.000</p>
+  </div>
 <input type="checkbox" id="my-modal-4" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -187,9 +203,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">Bulky EGG</p>
+
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-5">
           <Space wrap>
       {colors.map((color) => (
@@ -205,6 +221,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">Morning Box</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 200.000</p>
+  </div>
 <input type="checkbox" id="my-modal-5" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -230,9 +250,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">Morning Box</p>   
+  
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-6">
           <Space wrap>
       {colors.map((color) => (
@@ -248,6 +268,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">Breeding foam</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 3.000</p>
+  </div>
 <input type="checkbox" id="my-modal-6" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -267,9 +291,8 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">Breeding foam</p>   
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-7">
           <Space wrap>
       {colors.map((color) => (
@@ -285,6 +308,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">BRONZE HATCHET</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 120.000</p>
+  </div>
 <input type="checkbox" id="my-modal-7" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -311,10 +338,9 @@ function TheMayor() {
             </p>
     </div>
   </div>   
-  </div>
-  <p className="p-6 truncate hover:text-clip text-black">BRONZE HATCHET</p>   
+  </div>  
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-8">
           <Space wrap>
       {colors.map((color) => (
@@ -330,6 +356,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">BRONZE MACE</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 120.000</p>
+  </div>
 <input type="checkbox" id="my-modal-8" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -357,12 +387,12 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">BRONZE MACE</p>   
+  
 </div>
 
       </div>
   <div className="flex-1">
-  <div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+  <div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-9">
           <Space wrap>
       {colors.map((color) => (
@@ -378,6 +408,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">Lesser Health Potion</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 0.200</p>
+  </div>
 <input type="checkbox" id="my-modal-9" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -397,10 +431,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">Lesser Health Potion</p>
                 
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-10">
           <Space wrap>
       {colors.map((color) => (
@@ -416,6 +449,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">Silver Key</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 0.500</p>
+  </div>
 <input type="checkbox" id="my-modal-10" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -435,10 +472,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">Silver Key</p>
                 
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-11">
           <Space wrap>
       {colors.map((color) => (
@@ -454,6 +490,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">Angelic Box</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 1.000</p>
+  </div>
 <input type="checkbox" id="my-modal-11" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -479,10 +519,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">Angelic Box</p>
-                
+       
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-12">
           <Space wrap>
       {colors.map((color) => (
@@ -498,6 +537,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">Gemstone Box</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 40.000</p>
+  </div>
 <input type="checkbox" id="my-modal-12" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -523,10 +566,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">Gemstone Box</p>
-                
+            
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-13">
           <Space wrap>
       {colors.map((color) => (
@@ -542,6 +584,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">Mangosteen</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 5.000</p>
+  </div>
 <input type="checkbox" id="my-modal-13" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -564,10 +610,10 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">Mangosteen</p>
+  
                 
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-14">
           <Space wrap>
       {colors.map((color) => (
@@ -583,6 +629,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">Breeding Elixir</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 3.000</p>
+  </div>
 <input type="checkbox" id="my-modal-14" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -605,10 +655,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">Breeding Elixir</p>
                 
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-15">
           <Space wrap>
       {colors.map((color) => (
@@ -624,6 +673,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">BRONZE MAUL</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 120.000</p>
+  </div>
 <input type="checkbox" id="my-modal-15" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -651,10 +704,9 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">BRONZE MAUL</p>
                 
 </div>
-<div className="flex items-center p-3 bg-slate-200 hover:bg-gray-800 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
+<div className="flex items-center p-3 bg-slate-200 hover:bg-yellow-300 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-yellow-500">
           <label htmlFor="my-modal-16">
           <Space wrap>
       {colors.map((color) => (
@@ -670,6 +722,10 @@ function TheMayor() {
       ))}
     </Space>
           </label>
+          <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">SIMPLE CAPE</p>
+  <p className=" text-blue-600 text-sm md:text-base md:truncate">ราคา 240.000</p>
+  </div>
 <input type="checkbox" id="my-modal-16" className="modal-toggle" />
 <div className="modal">
   <div className="modal-box relative">
@@ -697,7 +753,6 @@ function TheMayor() {
     </div>
   </div>   
   </div>
-  <p className="p-6 truncate hover:text-clip text-black">SIMPLE CAPE</p>
                 
 </div>
 

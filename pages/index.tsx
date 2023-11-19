@@ -723,24 +723,7 @@ function Home() {
             className=" max-w-full h-auto "
             
           />
-    <div className="grid grid-cols-1 gap-1 ">
-    <div className="grid flex-grow  place-items-center"> 
-  <div className="hover:translate-y-1 transition-all rounded">
-        <Link href="/price"> 
-        
-        <Image 
-            width={350}
-            height={150}
-            src="https://commumorning.firebaseapp.com/Btn/coinprice.png"
-            objectFit="contain"
-            alt="avatar"
-            className=" max-w-full h-auto "
-            
-          />
-          
-        </Link>
-        </div>
-        </div> 
+    
         
         <div className="grid flex-grow  place-items-center">
   <div className="hover:translate-y-1 transition-all rounded">
@@ -755,23 +738,6 @@ function Home() {
             
           />
         </Link>
-        </div>
-  </div>
-  <div className="grid flex-grow  place-items-center">
-  <div className="hover:translate-y-1 transition-all rounded">
-  <Link href="https://www.cmhexa.com/lookdo">
-            <a target="_blank">
-            <Image 
-             width={350}
-             height={150}
-             src="https://commumorning.firebaseapp.com/Btn/tokencheck.png"
-            objectFit="contain"
-            alt="avatar"
-            className=" max-w-full h-auto "
-            
-          />
-            </a>
-        </Link>  
         </div>
   </div>
   <div className="grid flex-grow  place-items-center"> 
@@ -792,7 +758,26 @@ function Home() {
        
         </div>
             </div> 
-            </div> 
+            
+  <div className="grid grid-cols-1 gap-1 ">
+    <div className="grid flex-grow  place-items-center"> 
+  <div className="hover:translate-y-1 transition-all rounded">
+        <Link href="/price"> 
+        
+        <Image 
+            width={350}
+            height={150}
+            src="https://commumorning.firebaseapp.com/Btn/coinprice.png"
+            objectFit="contain"
+            alt="avatar"
+            className=" max-w-full h-auto "
+            
+          />
+          
+        </Link>
+        </div>
+        </div> 
+        </div> 
            
     </aside>
     
