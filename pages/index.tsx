@@ -1074,7 +1074,7 @@ function Home() {
                 <Image 
              width={450}
              height={250}
-             src="https://commumorning.firebaseapp.com/commu/HEROCAT.gif"
+             src="https://commumorning.firebaseapp.com/commu/cm1.gif"
             objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
@@ -1089,7 +1089,7 @@ function Home() {
                 <Image 
              width={450}
              height={250}
-             src="https://commumorning.firebaseapp.com/commu/mmvgameplay.gif"
+             src="https://commumorning.firebaseapp.com/commu/cm2.gif"
             objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
@@ -1104,7 +1104,7 @@ function Home() {
                 <Image 
              width={450}
              height={250}
-             src="https://commumorning.firebaseapp.com/commu/Soonbanner.png"
+             src="https://commumorning.firebaseapp.com/commu/cm3.png"
             objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
@@ -1119,7 +1119,7 @@ function Home() {
                 <Image 
              width={450}
              height={250}
-             src="https://commumorning.firebaseapp.com/commu/Soonbanner.png"
+             src="https://commumorning.firebaseapp.com/commu/cm4.png"
             objectFit="contain"
             alt="avatar"
             className=" max-w-full h-auto "
