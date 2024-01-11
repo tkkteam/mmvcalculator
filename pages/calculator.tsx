@@ -631,7 +631,7 @@ const Calculator: NextPage = () => {
                   setSeedKind("BLUEBERRY");
                   switch (plantKind) {
                     case "SEED":
-                      setRewardMultiplier(4);
+                      setRewardMultiplier(3);
                       break;
                    
                   }

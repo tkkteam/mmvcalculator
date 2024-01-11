@@ -5,6 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { Space, Tooltip } from "antd";
 
+
 function levelup() {
 
   const colors = [
@@ -20,6 +21,7 @@ function levelup() {
           
           <div className="sm:max-w-screen-xl gap-y-4 container flex flex-col self-center flex-1 p-4">
           <div className= "p-2 text-2xl  flex items-center justify-center">
+
           <Link href="https://bit.ly/3Lg9mpP">
   <a target="_blank">
   <Space wrap>
