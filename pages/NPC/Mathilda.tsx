@@ -234,7 +234,7 @@ function Mathilda() {
   </div>  
   
   <div className="flex flex-col justify-start ">
-  <p className=" text-black text-sm md:text-base md:truncate">Dye Apple</p>
+  <p className=" text-black text-sm md:text-base md:truncate">DRIED Apple</p>
   <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
     <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
     <div className="grid  grid-cols-1  md:grid-cols-2 ">
@@ -1161,7 +1161,55 @@ function Mathilda() {
     </div>
   </div>
 </div>
-
+<div className="flex items-center p-3 bg-green-200 hover:bg-yellow-200 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-blue-500">
+          <label htmlFor="my-modal-36">
+          <Space wrap>
+      {colors.map((color) => (
+        <Tooltip title="คลิกดูข้อมูล" color={color} key={color}>
+         <Image 
+             width={90}
+             height={90}
+             src="/token/FRIEDGRASSHOPPER.png"
+             className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
+          />
+        </Tooltip>
+      ))}
+    </Space>
+          </label>
+<input type="checkbox" id="my-modal-36" className="modal-toggle" />
+<div className="modal">
+  <div className="modal-box relative">
+  <label htmlFor="my-modal-36" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+  <div className="border-dashed border-2 border-indigo-600 text-center mt-2">
+  <h3 className=" font-bold text-lg text-red-600">ความสามารถ</h3>
+    <p className="text-yellow-600">ฟื้นฟู 45 HP</p>
+    <p className="py-4 "> 
+    <Image 
+             width={90}
+             height={90}
+             src="/token/FRIEDGRASSHOPPER.png"
+             className="md:sm hover:scale-110 transition duration-500 cursor-pointer object-cover"
+             
+          />
+      </p>
+    </div>
+  </div>   
+  </div>  
+  
+  <div className="flex flex-col justify-start ">
+  <p className=" text-black text-sm md:text-base md:truncate">FRIED GRASSHOPPER</p>
+  <p className=" text-red-600 text-sm md:text-base md:truncate">ไอเทมที่ใช้คราฟ</p>
+    <div className="text-base text-neutral-600 dark:text-neutral-200 flex justify-center">
+    <div className="grid  grid-cols-1  md:grid-cols-2">
+      
+      <div className="text-black">3X
+      <div className="tooltip" data-tip="Adult Grasshopper">
+      <Image width={35}height={35}src="/token/AGH.png"/></div>
+      </div>  
+    </div>
+    </div>
+  </div>
+</div>
 <div className="flex items-center p-3 bg-green-200 hover:bg-yellow-200 font-bold rounded-lg overflow-hidden shadow-lg  border-t-4 border-blue-500">
           <label htmlFor="my-modal-19">
           <Space wrap>
