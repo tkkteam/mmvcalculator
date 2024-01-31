@@ -583,7 +583,7 @@ const Calculator: NextPage = () => {
                   setSeedKind("CARROT");
                   switch (plantKind) {
                     case "SEED":
-                      setRewardMultiplier(12);
+                      setRewardMultiplier(8);
                       break;
                     
                   }
