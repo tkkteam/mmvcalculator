@@ -677,6 +677,14 @@ function Home() {
     <p className="text-blue-600">มอนสเตอร์</p>
      </a>
      </Link>
+     </li>
+     <li>
+     <Link href="/tutorials/MonsterIsLand">
+    <a target="_blank">
+    <p className="text-blue-600">มอนสเตอร์ IsLand</p>
+     </a>
+     </Link>
+    
       </li>
   </ul>
     </div>
